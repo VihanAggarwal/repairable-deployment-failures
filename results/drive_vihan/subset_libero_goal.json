@@ -1,0 +1,1288 @@
+{
+ "suite": "libero_goal",
+ "n_tasks": 2591,
+ "per_cat": 30,
+ "seed": 0,
+ "counts": {
+  "background": 281,
+  "camera": 408,
+  "language": 410,
+  "layout": 425,
+  "light": 279,
+  "robot_init": 409,
+  "sensor_noise": 379
+ },
+ "other_examples": [],
+ "name_tokens": {
+  "view": 1606,
+  "initstate": 1606,
+  "language": 410,
+  "noise": 379,
+  "light": 279,
+  "add": 240,
+  "table": 158,
+  "tb": 123
+ },
+ "tasks": [
+  {
+   "task_id": 13,
+   "name": "open_the_middle_drawer_of_the_cabinet_table_27",
+   "language": "open the middle drawer of the cabinet table 27",
+   "category": "background"
+  },
+  {
+   "task_id": 41,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_table_20",
+   "language": "open the top drawer and put the bowl inside table 20",
+   "category": "background"
+  },
+  {
+   "task_id": 42,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_table_21",
+   "language": "open the top drawer and put the bowl inside table 21",
+   "category": "background"
+  },
+  {
+   "task_id": 53,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_table_7",
+   "language": "open the top drawer and put the bowl inside table 7",
+   "category": "background"
+  },
+  {
+   "task_id": 68,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_tb_3",
+   "language": "open the top drawer and put the bowl inside tb 3",
+   "category": "background"
+  },
+  {
+   "task_id": 78,
+   "name": "push_the_plate_to_the_front_of_the_stove_table_17",
+   "language": "push the plate to the front of the stove table 17",
+   "category": "background"
+  },
+  {
+   "task_id": 87,
+   "name": "push_the_plate_to_the_front_of_the_stove_table_3",
+   "language": "push the plate to the front of the stove table 3",
+   "category": "background"
+  },
+  {
+   "task_id": 88,
+   "name": "push_the_plate_to_the_front_of_the_stove_table_4",
+   "language": "push the plate to the front of the stove table 4",
+   "category": "background"
+  },
+  {
+   "task_id": 94,
+   "name": "push_the_plate_to_the_front_of_the_stove_tb_12",
+   "language": "push the plate to the front of the stove tb 12",
+   "category": "background"
+  },
+  {
+   "task_id": 96,
+   "name": "push_the_plate_to_the_front_of_the_stove_tb_17",
+   "language": "push the plate to the front of the stove tb 17",
+   "category": "background"
+  },
+  {
+   "task_id": 99,
+   "name": "push_the_plate_to_the_front_of_the_stove_tb_22",
+   "language": "push the plate to the front of the stove tb 22",
+   "category": "background"
+  },
+  {
+   "task_id": 101,
+   "name": "push_the_plate_to_the_front_of_the_stove_tb_9",
+   "language": "push the plate to the front of the stove tb 9",
+   "category": "background"
+  },
+  {
+   "task_id": 108,
+   "name": "put_the_bowl_on_the_plate_table_17",
+   "language": "put the bowl on the plate table 17",
+   "category": "background"
+  },
+  {
+   "task_id": 110,
+   "name": "put_the_bowl_on_the_plate_table_21",
+   "language": "put the bowl on the plate table 21",
+   "category": "background"
+  },
+  {
+   "task_id": 112,
+   "name": "put_the_bowl_on_the_plate_table_23",
+   "language": "put the bowl on the plate table 23",
+   "category": "background"
+  },
+  {
+   "task_id": 123,
+   "name": "put_the_bowl_on_the_plate_tb_16",
+   "language": "put the bowl on the plate tb 16",
+   "category": "background"
+  },
+  {
+   "task_id": 131,
+   "name": "put_the_bowl_on_the_plate_tb_9",
+   "language": "put the bowl on the plate tb 9",
+   "category": "background"
+  },
+  {
+   "task_id": 146,
+   "name": "put_the_bowl_on_top_of_the_cabinet_tb_19",
+   "language": "put the bowl on top of the cabinet tb 19",
+   "category": "background"
+  },
+  {
+   "task_id": 174,
+   "name": "put_the_cream_cheese_in_the_bowl_tb_17",
+   "language": "put the cream cheese in the bowl tb 17",
+   "category": "background"
+  },
+  {
+   "task_id": 188,
+   "name": "put_the_wine_bottle_on_the_rack_table_14",
+   "language": "put the wine bottle on the rack table 14",
+   "category": "background"
+  },
+  {
+   "task_id": 192,
+   "name": "put_the_wine_bottle_on_the_rack_table_18",
+   "language": "put the wine bottle on the rack table 18",
+   "category": "background"
+  },
+  {
+   "task_id": 202,
+   "name": "put_the_wine_bottle_on_the_rack_table_28",
+   "language": "put the wine bottle on the rack table 28",
+   "category": "background"
+  },
+  {
+   "task_id": 204,
+   "name": "put_the_wine_bottle_on_the_rack_table_5",
+   "language": "put the wine bottle on the rack table 5",
+   "category": "background"
+  },
+  {
+   "task_id": 217,
+   "name": "put_the_wine_bottle_on_the_rack_tb_17",
+   "language": "put the wine bottle on the rack tb 17",
+   "category": "background"
+  },
+  {
+   "task_id": 224,
+   "name": "put_the_wine_bottle_on_the_rack_tb_4",
+   "language": "put the wine bottle on the rack tb 4",
+   "category": "background"
+  },
+  {
+   "task_id": 237,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_table_20",
+   "language": "put the wine bottle on top of the cabinet table 20",
+   "category": "background"
+  },
+  {
+   "task_id": 249,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_tb_10",
+   "language": "put the wine bottle on top of the cabinet tb 10",
+   "category": "background"
+  },
+  {
+   "task_id": 262,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_tb_23",
+   "language": "put the wine bottle on top of the cabinet tb 23",
+   "category": "background"
+  },
+  {
+   "task_id": 266,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_tb_6",
+   "language": "put the wine bottle on top of the cabinet tb 6",
+   "category": "background"
+  },
+  {
+   "task_id": 273,
+   "name": "turn_on_the_stove_table_23",
+   "language": "turn on the stove table 23",
+   "category": "background"
+  },
+  {
+   "task_id": 288,
+   "name": "open_the_middle_drawer_of_the_cabinet_view_0_0_100_0_0_initstate_131",
+   "language": "open the middle drawer of the cabinet view 0 0 100 0 0 initstate 131",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 290,
+   "name": "open_the_middle_drawer_of_the_cabinet_view_0_0_100_0_0_initstate_151",
+   "language": "open the middle drawer of the cabinet view 0 0 100 0 0 initstate 151",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 323,
+   "name": "open_the_middle_drawer_of_the_cabinet_view_0_0_100_0_0_initstate_491",
+   "language": "open the middle drawer of the cabinet view 0 0 100 0 0 initstate 491",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 326,
+   "name": "put_the_bowl_on_the_stove_view_0_0_100_0_0_initstate_62",
+   "language": "put the bowl on the stove view 0 0 100 0 0 initstate 62",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 370,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_113",
+   "language": "put the wine bottle on top of the cabinet view 0 0 100 0 0 initstate 113",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 394,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_413",
+   "language": "put the wine bottle on top of the cabinet view 0 0 100 0 0 initstate 413",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 395,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_423",
+   "language": "put the wine bottle on top of the cabinet view 0 0 100 0 0 initstate 423",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 399,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_473",
+   "language": "put the wine bottle on top of the cabinet view 0 0 100 0 0 initstate 473",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 400,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_483",
+   "language": "put the wine bottle on top of the cabinet view 0 0 100 0 0 initstate 483",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 416,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_view_0_0_100_0_0_initstate_184",
+   "language": "open the top drawer and put the bowl inside view 0 0 100 0 0 initstate 184",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 433,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_view_0_0_100_0_0_initstate_354",
+   "language": "open the top drawer and put the bowl inside view 0 0 100 0 0 initstate 354",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 454,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_135",
+   "language": "put the bowl on top of the cabinet view 0 0 100 0 0 initstate 135",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 465,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_255",
+   "language": "put the bowl on top of the cabinet view 0 0 100 0 0 initstate 255",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 472,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_325",
+   "language": "put the bowl on top of the cabinet view 0 0 100 0 0 initstate 325",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 526,
+   "name": "push_the_plate_to_the_front_of_the_stove_view_0_0_100_0_0_initstate_466",
+   "language": "push the plate to the front of the stove view 0 0 100 0 0 initstate 466",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 547,
+   "name": "put_the_cream_cheese_in_the_bowl_view_0_0_100_0_0_initstate_187",
+   "language": "put the cream cheese in the bowl view 0 0 100 0 0 initstate 187",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 560,
+   "name": "put_the_cream_cheese_in_the_bowl_view_0_0_100_0_0_initstate_337",
+   "language": "put the cream cheese in the bowl view 0 0 100 0 0 initstate 337",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 580,
+   "name": "turn_on_the_stove_view_0_0_100_0_0_initstate_128",
+   "language": "turn on the stove view 0 0 100 0 0 initstate 128",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 597,
+   "name": "turn_on_the_stove_view_0_0_100_0_0_initstate_318",
+   "language": "turn on the stove view 0 0 100 0 0 initstate 318",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 606,
+   "name": "turn_on_the_stove_view_0_0_100_0_0_initstate_418",
+   "language": "turn on the stove view 0 0 100 0 0 initstate 418",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 621,
+   "name": "put_the_bowl_on_the_plate_view_0_0_100_0_0_initstate_149",
+   "language": "put the bowl on the plate view 0 0 100 0 0 initstate 149",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 640,
+   "name": "put_the_bowl_on_the_plate_view_0_0_100_0_0_initstate_389",
+   "language": "put the bowl on the plate view 0 0 100 0 0 initstate 389",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 643,
+   "name": "put_the_bowl_on_the_plate_view_0_0_100_0_0_initstate_429",
+   "language": "put the bowl on the plate view 0 0 100 0 0 initstate 429",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 654,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_40",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 40",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 659,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_110",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 110",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 661,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_130",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 130",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 669,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_220",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 220",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 674,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_270",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 270",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 675,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_280",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 280",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 682,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_400",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 400",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 707,
+   "name": "open_the_middle_drawer_of_the_cabinet_view_12_15_100_0_0_initstate_0",
+   "language": "open the middle drawer of the cabinet view 12 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 712,
+   "name": "put_the_bowl_on_the_stove_view_0_0_119_0_0_initstate_0",
+   "language": "put the bowl on the stove view 0 0 119 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 715,
+   "name": "put_the_bowl_on_the_stove_view_0_0_100_4_10_initstate_0",
+   "language": "put the bowl on the stove view 0 0 100 4 10 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 718,
+   "name": "put_the_bowl_on_the_stove_view_16_15_100_0_0_initstate_0",
+   "language": "put the bowl on the stove view 16 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 719,
+   "name": "put_the_bowl_on_the_stove_view_17_0_100_0_0_initstate_0",
+   "language": "put the bowl on the stove view 17 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 738,
+   "name": "put_the_bowl_on_the_stove_view_28_15_100_0_0_initstate_0",
+   "language": "put the bowl on the stove view 28 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 744,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_125_0_0_initstate_0",
+   "language": "put the wine bottle on top of the cabinet view 0 0 125 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 759,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_34_0_100_0_0_initstate_0",
+   "language": "put the wine bottle on top of the cabinet view 34 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 808,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_view_49_15_100_0_0_initstate_0",
+   "language": "open the top drawer and put the bowl inside view 49 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 820,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_view_55_15_100_0_0_initstate_0",
+   "language": "open the top drawer and put the bowl inside view 55 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 837,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_147_0_0_initstate_0",
+   "language": "put the bowl on top of the cabinet view 0 0 147 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 845,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_10_10_initstate_0",
+   "language": "put the bowl on top of the cabinet view 0 0 100 10 10 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 888,
+   "name": "push_the_plate_to_the_front_of_the_stove_view_0_0_158_0_0_initstate_0",
+   "language": "push the plate to the front of the stove view 0 0 158 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 897,
+   "name": "push_the_plate_to_the_front_of_the_stove_view_0_0_100_350_354_initstate_0",
+   "language": "push the plate to the front of the stove view 0 0 100 350 354 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 907,
+   "name": "push_the_plate_to_the_front_of_the_stove_view_288_15_100_0_0_initstate_0",
+   "language": "push the plate to the front of the stove view 288 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 917,
+   "name": "push_the_plate_to_the_front_of_the_stove_view_293_15_100_0_0_initstate_0",
+   "language": "push the plate to the front of the stove view 293 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 942,
+   "name": "put_the_cream_cheese_in_the_bowl_view_0_0_100_352_6_initstate_0",
+   "language": "put the cream cheese in the bowl view 0 0 100 352 6 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 952,
+   "name": "put_the_cream_cheese_in_the_bowl_view_301_0_100_0_0_initstate_0",
+   "language": "put the cream cheese in the bowl view 301 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 979,
+   "name": "turn_on_the_stove_view_0_0_171_0_0_initstate_0",
+   "language": "turn on the stove view 0 0 171 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 981,
+   "name": "turn_on_the_stove_view_0_0_173_0_0_initstate_0",
+   "language": "turn on the stove view 0 0 173 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 983,
+   "name": "turn_on_the_stove_view_0_0_175_0_0_initstate_0",
+   "language": "turn on the stove view 0 0 175 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 991,
+   "name": "turn_on_the_stove_view_0_0_100_354_10_initstate_0",
+   "language": "turn on the stove view 0 0 100 354 10 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1039,
+   "name": "put_the_bowl_on_the_plate_view_330_15_100_0_0_initstate_0",
+   "language": "put the bowl on the plate view 330 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1040,
+   "name": "put_the_bowl_on_the_plate_view_332_15_100_0_0_initstate_0",
+   "language": "put the bowl on the plate view 332 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1044,
+   "name": "put_the_bowl_on_the_plate_view_336_15_100_0_0_initstate_0",
+   "language": "put the bowl on the plate view 336 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1045,
+   "name": "put_the_bowl_on_the_plate_view_337_0_100_0_0_initstate_0",
+   "language": "put the bowl on the plate view 337 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1055,
+   "name": "put_the_bowl_on_the_plate_view_344_15_100_0_0_initstate_0",
+   "language": "put the bowl on the plate view 344 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1060,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_195_0_0_initstate_0",
+   "language": "put the wine bottle on the rack view 0 0 195 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1069,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_358_8_initstate_0",
+   "language": "put the wine bottle on the rack view 0 0 100 358 8 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1092,
+   "name": "put_the_wine_bottle_on_the_rack_view_354_15_100_0_0_initstate_0",
+   "language": "put the wine bottle on the rack view 354 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1107,
+   "name": "open_the_middle_drawer_of_the_cabinet_language_10_view_0_0_100_0_0_initstate_0",
+   "language": "access the central compartment of the cupboard",
+   "category": "language"
+  },
+  {
+   "task_id": 1123,
+   "name": "open_the_middle_drawer_of_the_cabinet_language_28_view_0_0_100_0_0_initstate_0",
+   "language": "pull out the center drawer of the cupboard",
+   "category": "language"
+  },
+  {
+   "task_id": 1140,
+   "name": "open_the_middle_drawer_of_the_cabinet_language_47_view_0_0_100_0_0_initstate_0",
+   "language": "i need to access something so kindly open the middle drawer of the cabinet",
+   "category": "language"
+  },
+  {
+   "task_id": 1166,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_language_5_view_0_0_100_0_0_initstate_0",
+   "language": "set the wine container atop the cupboard",
+   "category": "language"
+  },
+  {
+   "task_id": 1185,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_language_31_view_0_0_100_0_0_initstate_0",
+   "language": "our storage protocol requires you to put the wine bottle on the cabinets top",
+   "category": "language"
+  },
+  {
+   "task_id": 1208,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_language_7_view_0_0_100_0_0_initstate_0",
+   "language": "slide out the uppermost storage compartment and place the dish used for eating cereal inside",
+   "category": "language"
+  },
+  {
+   "task_id": 1221,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_language_20_view_0_0_100_0_0_initstate_0",
+   "language": "could you make sure the bowl is placed in the top drawer",
+   "category": "language"
+  },
+  {
+   "task_id": 1228,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_language_27_view_0_0_100_0_0_initstate_0",
+   "language": "slide the upper drawer and place the dish within",
+   "category": "language"
+  },
+  {
+   "task_id": 1238,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_language_37_view_0_0_100_0_0_initstate_0",
+   "language": "could you please place the bowl in the top drawer",
+   "category": "language"
+  },
+  {
+   "task_id": 1266,
+   "name": "put_the_bowl_on_top_of_the_cabinet_language_17_view_0_0_100_0_0_initstate_0",
+   "language": "place the rounded container for food on the elevated storage structure",
+   "category": "language"
+  },
+  {
+   "task_id": 1268,
+   "name": "put_the_bowl_on_top_of_the_cabinet_language_20_view_0_0_100_0_0_initstate_0",
+   "language": "place the rounded container used for holding food above the tall storage unit often used for storing dishes and other kitchen items",
+   "category": "language"
+  },
+  {
+   "task_id": 1271,
+   "name": "put_the_bowl_on_top_of_the_cabinet_language_24_view_0_0_100_0_0_initstate_0",
+   "language": "the bowl is in your way just put it up on the cabinet out of the way",
+   "category": "language"
+  },
+  {
+   "task_id": 1289,
+   "name": "put_the_bowl_on_top_of_the_cabinet_language_43_view_0_0_100_0_0_initstate_0",
+   "language": "place the dish on the upper part of the cupboard",
+   "category": "language"
+  },
+  {
+   "task_id": 1291,
+   "name": "put_the_bowl_on_top_of_the_cabinet_language_45_view_0_0_100_0_0_initstate_0",
+   "language": "after you finish washing it put the bowl on top of the cabinet where we usually store it",
+   "category": "language"
+  },
+  {
+   "task_id": 1320,
+   "name": "push_the_plate_to_the_front_of_the_stove_language_30_view_0_0_100_0_0_initstate_0",
+   "language": "slide the dish toward the front of the cooktop",
+   "category": "language"
+  },
+  {
+   "task_id": 1329,
+   "name": "push_the_plate_to_the_front_of_the_stove_language_43_view_0_0_100_0_0_initstate_0",
+   "language": "slide the flat dishware to the area closest to the cooking appliances handle",
+   "category": "language"
+  },
+  {
+   "task_id": 1354,
+   "name": "put_the_cream_cheese_in_the_bowl_language_21_view_0_0_100_0_0_initstate_0",
+   "language": "put the soft spreadable dairy product inside the rounded dish used for mixing ingredients",
+   "category": "language"
+  },
+  {
+   "task_id": 1363,
+   "name": "put_the_cream_cheese_in_the_bowl_language_30_view_0_0_100_0_0_initstate_0",
+   "language": "place the cream cheese into the bowl",
+   "category": "language"
+  },
+  {
+   "task_id": 1378,
+   "name": "put_the_cream_cheese_in_the_bowl_language_45_view_0_0_100_0_0_initstate_0",
+   "language": "place the spreadable dairy product into the deep rounded dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1392,
+   "name": "turn_on_the_stove_language_11_view_0_0_100_0_0_initstate_0",
+   "language": "activate the home cooking appliance",
+   "category": "language"
+  },
+  {
+   "task_id": 1393,
+   "name": "turn_on_the_stove_language_12_view_0_0_100_0_0_initstate_0",
+   "language": "could you heat up the stove for me please",
+   "category": "language"
+  },
+  {
+   "task_id": 1412,
+   "name": "turn_on_the_stove_language_38_view_0_0_100_0_0_initstate_0",
+   "language": "could you make sure the stove is turned on please",
+   "category": "language"
+  },
+  {
+   "task_id": 1447,
+   "name": "put_the_bowl_on_the_plate_language_35_view_0_0_100_0_0_initstate_0",
+   "language": "the proper way to serve this dish is to put the bowl on the plate before bringing it out",
+   "category": "language"
+  },
+  {
+   "task_id": 1450,
+   "name": "put_the_bowl_on_the_plate_language_40_view_0_0_100_0_0_initstate_0",
+   "language": "make sure the bowl ends up on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1459,
+   "name": "put_the_wine_bottle_on_the_rack_language_2_view_0_0_100_0_0_initstate_0",
+   "language": "could you put the wine bottle on the rack we want to keep it at the right angle",
+   "category": "language"
+  },
+  {
+   "task_id": 1463,
+   "name": "put_the_wine_bottle_on_the_rack_language_6_view_0_0_100_0_0_initstate_0",
+   "language": "place the container of fermented grape juice onto the storage structure designed for holding such items",
+   "category": "language"
+  },
+  {
+   "task_id": 1475,
+   "name": "put_the_wine_bottle_on_the_rack_language_18_view_0_0_100_0_0_initstate_0",
+   "language": "our guests are arriving soon please put the wine bottle on the rack to chill",
+   "category": "language"
+  },
+  {
+   "task_id": 1483,
+   "name": "put_the_wine_bottle_on_the_rack_language_26_view_0_0_100_0_0_initstate_0",
+   "language": "position the container with fermented grape drink onto the storage unit designed for holding such containers",
+   "category": "language"
+  },
+  {
+   "task_id": 1486,
+   "name": "put_the_wine_bottle_on_the_rack_language_29_view_0_0_100_0_0_initstate_0",
+   "language": "place the container of fermented grape drink onto the storage structure designed for holding such items",
+   "category": "language"
+  },
+  {
+   "task_id": 1494,
+   "name": "put_the_wine_bottle_on_the_rack_language_37_view_0_0_100_0_0_initstate_0",
+   "language": "for proper wine storage please place the bottle on the rack horizontally",
+   "category": "language"
+  },
+  {
+   "task_id": 1521,
+   "name": "open_the_middle_drawer_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_15",
+   "language": "open the middle drawer of the cabinet view 0 0 100 0 0 initstate 0 noise 15",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1546,
+   "name": "open_the_middle_drawer_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_47",
+   "language": "open the middle drawer of the cabinet view 0 0 100 0 0 initstate 0 noise 47",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1550,
+   "name": "put_the_bowl_on_the_stove_view_0_0_100_0_0_initstate_0_noise_4",
+   "language": "put the bowl on the stove view 0 0 100 0 0 initstate 0 noise 4",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1551,
+   "name": "put_the_bowl_on_the_stove_view_0_0_100_0_0_initstate_0_noise_5",
+   "language": "put the bowl on the stove view 0 0 100 0 0 initstate 0 noise 5",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1554,
+   "name": "put_the_bowl_on_the_stove_view_0_0_100_0_0_initstate_0_noise_8",
+   "language": "put the bowl on the stove view 0 0 100 0 0 initstate 0 noise 8",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1555,
+   "name": "put_the_bowl_on_the_stove_view_0_0_100_0_0_initstate_0_noise_9",
+   "language": "put the bowl on the stove view 0 0 100 0 0 initstate 0 noise 9",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1595,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_20",
+   "language": "put the wine bottle on top of the cabinet view 0 0 100 0 0 initstate 0 noise 20",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1609,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_43",
+   "language": "put the wine bottle on top of the cabinet view 0 0 100 0 0 initstate 0 noise 43",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1621,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_view_0_0_100_0_0_initstate_0_noise_7",
+   "language": "open the top drawer and put the bowl inside view 0 0 100 0 0 initstate 0 noise 7",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1626,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_view_0_0_100_0_0_initstate_0_noise_13",
+   "language": "open the top drawer and put the bowl inside view 0 0 100 0 0 initstate 0 noise 13",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1664,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_8",
+   "language": "put the bowl on top of the cabinet view 0 0 100 0 0 initstate 0 noise 8",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1677,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_21",
+   "language": "put the bowl on top of the cabinet view 0 0 100 0 0 initstate 0 noise 21",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1685,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_30",
+   "language": "put the bowl on top of the cabinet view 0 0 100 0 0 initstate 0 noise 30",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1693,
+   "name": "put_the_bowl_on_top_of_the_cabinet_view_0_0_100_0_0_initstate_0_noise_39",
+   "language": "put the bowl on top of the cabinet view 0 0 100 0 0 initstate 0 noise 39",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1728,
+   "name": "push_the_plate_to_the_front_of_the_stove_view_0_0_100_0_0_initstate_0_noise_40",
+   "language": "push the plate to the front of the stove view 0 0 100 0 0 initstate 0 noise 40",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1781,
+   "name": "put_the_cream_cheese_in_the_bowl_view_0_0_100_0_0_initstate_0_noise_48",
+   "language": "put the cream cheese in the bowl view 0 0 100 0 0 initstate 0 noise 48",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1794,
+   "name": "turn_on_the_stove_view_0_0_100_0_0_initstate_0_noise_18",
+   "language": "turn on the stove view 0 0 100 0 0 initstate 0 noise 18",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1840,
+   "name": "put_the_bowl_on_the_plate_view_0_0_100_0_0_initstate_0_noise_46",
+   "language": "put the bowl on the plate view 0 0 100 0 0 initstate 0 noise 46",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1841,
+   "name": "put_the_bowl_on_the_plate_view_0_0_100_0_0_initstate_0_noise_47",
+   "language": "put the bowl on the plate view 0 0 100 0 0 initstate 0 noise 47",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1843,
+   "name": "put_the_bowl_on_the_plate_view_0_0_100_0_0_initstate_0_noise_49",
+   "language": "put the bowl on the plate view 0 0 100 0 0 initstate 0 noise 49",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1847,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_3",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 3",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1854,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_10",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 10",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1861,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_18",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 18",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1862,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_19",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 19",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1863,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_20",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 20",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1874,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_34",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 34",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1877,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_37",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 37",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1878,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_41",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 41",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1879,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_43",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 43",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1883,
+   "name": "put_the_wine_bottle_on_the_rack_view_0_0_100_0_0_initstate_0_noise_47",
+   "language": "put the wine bottle on the rack view 0 0 100 0 0 initstate 0 noise 47",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1935,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_add_15",
+   "language": "open the top drawer and put the bowl inside add 15",
+   "category": "layout"
+  },
+  {
+   "task_id": 1945,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_add_25",
+   "language": "open the top drawer and put the bowl inside add 25",
+   "category": "layout"
+  },
+  {
+   "task_id": 1963,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_moved_level2_sample4",
+   "language": "open the top drawer and put the bowl inside moved level2 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 1976,
+   "name": "push_the_plate_to_the_front_of_the_stove_add_1",
+   "language": "push the plate to the front of the stove add 1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1980,
+   "name": "push_the_plate_to_the_front_of_the_stove_add_14",
+   "language": "push the plate to the front of the stove add 14",
+   "category": "layout"
+  },
+  {
+   "task_id": 1981,
+   "name": "push_the_plate_to_the_front_of_the_stove_add_15",
+   "language": "push the plate to the front of the stove add 15",
+   "category": "layout"
+  },
+  {
+   "task_id": 1989,
+   "name": "push_the_plate_to_the_front_of_the_stove_add_23",
+   "language": "push the plate to the front of the stove add 23",
+   "category": "layout"
+  },
+  {
+   "task_id": 2034,
+   "name": "put_the_bowl_on_the_plate_add_22",
+   "language": "put the bowl on the plate add 22",
+   "category": "layout"
+  },
+  {
+   "task_id": 2042,
+   "name": "put_the_bowl_on_the_plate_add_3",
+   "language": "put the bowl on the plate add 3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2050,
+   "name": "put_the_bowl_on_the_plate_moved_level1_sample4",
+   "language": "put the bowl on the plate moved level1 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2065,
+   "name": "put_the_bowl_on_the_plate_moved_level5_sample4",
+   "language": "put the bowl on the plate moved level5 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2080,
+   "name": "put_the_bowl_on_the_stove_moved_level2_sample3",
+   "language": "put the bowl on the stove moved level2 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2081,
+   "name": "put_the_bowl_on_the_stove_moved_level2_sample4",
+   "language": "put the bowl on the stove moved level2 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2117,
+   "name": "put_the_bowl_on_top_of_the_cabinet_moved_level2_sample4",
+   "language": "put the bowl on top of the cabinet moved level2 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2125,
+   "name": "put_the_bowl_on_top_of_the_cabinet_moved_level5_sample2",
+   "language": "put the bowl on top of the cabinet moved level5 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 2129,
+   "name": "put_the_cream_cheese_in_the_bowl_add_11",
+   "language": "put the cream cheese in the bowl add 11",
+   "category": "layout"
+  },
+  {
+   "task_id": 2149,
+   "name": "put_the_cream_cheese_in_the_bowl_add_4",
+   "language": "put the cream cheese in the bowl add 4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2155,
+   "name": "put_the_cream_cheese_in_the_bowl_moved_level1_sample4",
+   "language": "put the cream cheese in the bowl moved level1 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2158,
+   "name": "put_the_cream_cheese_in_the_bowl_moved_level2_sample3",
+   "language": "put the cream cheese in the bowl moved level2 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2165,
+   "name": "put_the_cream_cheese_in_the_bowl_moved_level4_sample2",
+   "language": "put the cream cheese in the bowl moved level4 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 2175,
+   "name": "put_the_wine_bottle_on_the_rack_add_13",
+   "language": "put the wine bottle on the rack add 13",
+   "category": "layout"
+  },
+  {
+   "task_id": 2177,
+   "name": "put_the_wine_bottle_on_the_rack_add_15",
+   "language": "put the wine bottle on the rack add 15",
+   "category": "layout"
+  },
+  {
+   "task_id": 2180,
+   "name": "put_the_wine_bottle_on_the_rack_add_18",
+   "language": "put the wine bottle on the rack add 18",
+   "category": "layout"
+  },
+  {
+   "task_id": 2190,
+   "name": "put_the_wine_bottle_on_the_rack_add_27",
+   "language": "put the wine bottle on the rack add 27",
+   "category": "layout"
+  },
+  {
+   "task_id": 2215,
+   "name": "put_the_wine_bottle_on_the_rack_moved_level4_sample4",
+   "language": "put the wine bottle on the rack moved level4 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2234,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_add_26",
+   "language": "put the wine bottle on top of the cabinet add 26",
+   "category": "layout"
+  },
+  {
+   "task_id": 2242,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_add_7",
+   "language": "put the wine bottle on top of the cabinet add 7",
+   "category": "layout"
+  },
+  {
+   "task_id": 2281,
+   "name": "turn_on_the_stove_add_25",
+   "language": "turn on the stove add 25",
+   "category": "layout"
+  },
+  {
+   "task_id": 2282,
+   "name": "turn_on_the_stove_add_26",
+   "language": "turn on the stove add 26",
+   "category": "layout"
+  },
+  {
+   "task_id": 2303,
+   "name": "turn_on_the_stove_moved_level3_sample3",
+   "language": "turn on the stove moved level3 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2329,
+   "name": "open_the_middle_drawer_of_the_cabinet_light_27",
+   "language": "open the middle drawer of the cabinet light 27",
+   "category": "light"
+  },
+  {
+   "task_id": 2337,
+   "name": "open_the_middle_drawer_of_the_cabinet_light_35",
+   "language": "open the middle drawer of the cabinet light 35",
+   "category": "light"
+  },
+  {
+   "task_id": 2339,
+   "name": "open_the_middle_drawer_of_the_cabinet_light_38",
+   "language": "open the middle drawer of the cabinet light 38",
+   "category": "light"
+  },
+  {
+   "task_id": 2350,
+   "name": "open_the_middle_drawer_of_the_cabinet_light_50",
+   "language": "open the middle drawer of the cabinet light 50",
+   "category": "light"
+  },
+  {
+   "task_id": 2364,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_19",
+   "language": "open the top drawer and put the bowl inside light 19",
+   "category": "light"
+  },
+  {
+   "task_id": 2366,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_20",
+   "language": "open the top drawer and put the bowl inside light 20",
+   "category": "light"
+  },
+  {
+   "task_id": 2369,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_23",
+   "language": "open the top drawer and put the bowl inside light 23",
+   "category": "light"
+  },
+  {
+   "task_id": 2371,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_25",
+   "language": "open the top drawer and put the bowl inside light 25",
+   "category": "light"
+  },
+  {
+   "task_id": 2374,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_28",
+   "language": "open the top drawer and put the bowl inside light 28",
+   "category": "light"
+  },
+  {
+   "task_id": 2383,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_36",
+   "language": "open the top drawer and put the bowl inside light 36",
+   "category": "light"
+  },
+  {
+   "task_id": 2386,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_39",
+   "language": "open the top drawer and put the bowl inside light 39",
+   "category": "light"
+  },
+  {
+   "task_id": 2396,
+   "name": "open_the_top_drawer_and_put_the_bowl_inside_light_48",
+   "language": "open the top drawer and put the bowl inside light 48",
+   "category": "light"
+  },
+  {
+   "task_id": 2414,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_23",
+   "language": "push the plate to the front of the stove light 23",
+   "category": "light"
+  },
+  {
+   "task_id": 2415,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_24",
+   "language": "push the plate to the front of the stove light 24",
+   "category": "light"
+  },
+  {
+   "task_id": 2419,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_29",
+   "language": "push the plate to the front of the stove light 29",
+   "category": "light"
+  },
+  {
+   "task_id": 2420,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_30",
+   "language": "push the plate to the front of the stove light 30",
+   "category": "light"
+  },
+  {
+   "task_id": 2430,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_4",
+   "language": "push the plate to the front of the stove light 4",
+   "category": "light"
+  },
+  {
+   "task_id": 2434,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_43",
+   "language": "push the plate to the front of the stove light 43",
+   "category": "light"
+  },
+  {
+   "task_id": 2436,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_46",
+   "language": "push the plate to the front of the stove light 46",
+   "category": "light"
+  },
+  {
+   "task_id": 2439,
+   "name": "push_the_plate_to_the_front_of_the_stove_light_6",
+   "language": "push the plate to the front of the stove light 6",
+   "category": "light"
+  },
+  {
+   "task_id": 2440,
+   "name": "put_the_bowl_on_the_plate_light_1",
+   "language": "put the bowl on the plate light 1",
+   "category": "light"
+  },
+  {
+   "task_id": 2487,
+   "name": "put_the_cream_cheese_in_the_bowl_light_18",
+   "language": "put the cream cheese in the bowl light 18",
+   "category": "light"
+  },
+  {
+   "task_id": 2514,
+   "name": "put_the_wine_bottle_on_the_rack_light_17",
+   "language": "put the wine bottle on the rack light 17",
+   "category": "light"
+  },
+  {
+   "task_id": 2532,
+   "name": "put_the_wine_bottle_on_the_rack_light_41",
+   "language": "put the wine bottle on the rack light 41",
+   "category": "light"
+  },
+  {
+   "task_id": 2546,
+   "name": "put_the_wine_bottle_on_top_of_the_cabinet_light_15",
+   "language": "put the wine bottle on top of the cabinet light 15",
+   "category": "light"
+  },
+  {
+   "task_id": 2573,
+   "name": "turn_on_the_stove_light_13",
+   "language": "turn on the stove light 13",
+   "category": "light"
+  },
+  {
+   "task_id": 2580,
+   "name": "turn_on_the_stove_light_24",
+   "language": "turn on the stove light 24",
+   "category": "light"
+  },
+  {
+   "task_id": 2581,
+   "name": "turn_on_the_stove_light_25",
+   "language": "turn on the stove light 25",
+   "category": "light"
+  },
+  {
+   "task_id": 2587,
+   "name": "turn_on_the_stove_light_39",
+   "language": "turn on the stove light 39",
+   "category": "light"
+  },
+  {
+   "task_id": 2589,
+   "name": "turn_on_the_stove_light_5",
+   "language": "turn on the stove light 5",
+   "category": "light"
+  }
+ ]
+}

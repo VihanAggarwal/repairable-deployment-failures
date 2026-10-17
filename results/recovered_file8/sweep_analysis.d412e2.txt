@@ -1,0 +1,74 @@
+scores: v2 (264 rows)
+
+===== openvla_oft =====  unperturbed success on base tasks: 9/10
+condition       label recover  ident invert     v1   raw  full  n
+nominal             1   1.000   1.00   1.00  1.000  0.90  0.80  10
+orbit_az10          1   0.773   0.91   0.85  0.936  0.90  1.00  10
+orbit_az20          1   0.659   0.91   0.73  0.956  0.50  1.00  10
+orbit_az30          1   0.599   0.91   0.66  0.941  0.40  0.90  10
+orbit_az45          1   0.616   0.99   0.62  1.042  0.20  0.50  10
+pullback_1.3        1   0.811   0.82   0.98  0.834  0.70  0.80  10
+look_away_35        1   0.238   0.99   0.24  1.064  0.00  0.10  10
+look_away_55        1   0.150   0.31   0.50  0.309  0.00  0.10  10
+dir_az90            1   0.341   0.43   0.80  0.002  0.80  0.90  10
+dir_az180           1   0.303   0.36   0.84  0.001  0.70  0.90  10
+grazing             1   0.245   0.40   0.69  0.016  0.90  0.80  10
+gain_0.4            1   0.396   0.48   0.81  0.054  0.90  0.90  10
+gain_1.8            1   0.822   1.00   0.82  0.166  0.90  0.90  10
+tint_warm           1   0.643   0.67   0.95  0.074  0.90  1.00  10
+sigma5              1   0.700   1.00   0.70  0.034  0.90  0.90  10
+sigma10             1   0.625   1.00   0.62  0.034  0.80  0.90  10
+sigma20             1   0.662   0.90   0.74  0.031  0.80  0.90  10
+sigma40             1   0.326   0.40   0.73  0.015  0.80  0.70  10
+offset0.10          1   0.964   0.96   1.00  0.264  0.40  0.80  10
+offset0.20          1   0.970   0.97   1.00  0.268  0.30  0.80  10
+offset0.35          1   0.974   0.97   1.00  0.267  0.40  0.80  10
+table_red           0   0.000   0.56   0.00  0.000  0.90  1.00  10
+table_dark          0   0.000   0.53   0.00  0.000  1.00  0.80  10
+colored_room        0   0.000   1.00   0.00  0.049  0.90  0.90  10
+noise floor: 7 of 48 episodes changed outcome with NOTHING applied -> [(1442, 'table_dark'), (1412, 'nominal'), (1167, 'grazing'), (1442, 'grazing'), (1325, 'tint_warm'), (1325, 'table_red'), (1412, 'table_dark')]
+
+prediction units (unperturbed success, perturbed raw failure): 65, recovered 37
+  AUROC recover  0.823  [0.71, 0.92]
+  AUROC ident    0.619  [0.48, 0.74]
+  AUROC score    0.397  [0.26, 0.55]
+  AUROC label    0.518  [0.50, 0.56]
+  AUROC probe    0.407  [0.27, 0.55]
+
+within-type: Spearman(recover, full success - raw success) across levels and tasks
+  camera      rho +0.11  (n 70)   units 38, recovered 15, AUROC 0.812
+  light       rho -0.07  (n 60)   units  5, recovered  5, AUROC nan
+  noise       rho -0.08  (n 40)   units  5, recovered  2, AUROC 0.833
+  joint       rho +0.27  (n 30)   units 16, recovered 15, AUROC 0.367
+  background  rho +nan  (n 30)   units  1, recovered  0, AUROC nan
+
+override conditions: label call vs score vs outcome
+  task 1101 look_away_35   label 1 recover 0.216 (ident 1.00 invert 0.22) recovered 0
+  task 1101 look_away_55   label 1 recover 0.172 (ident 0.33 invert 0.53) recovered 0
+  task 1146 look_away_35   label 1 recover 0.205 (ident 1.00 invert 0.21) recovered 0
+  task 1146 look_away_55   label 1 recover 0.022 (ident 0.33 invert 0.07) recovered 0
+  task 1167 look_away_35   label 1 recover 0.486 (ident 1.00 invert 0.49) recovered 1
+  task 1167 look_away_55   label 1 recover 0.204 (ident 0.29 invert 0.69) recovered 0
+  task 1208 look_away_35   label 1 recover 0.218 (ident 1.00 invert 0.22) recovered 0
+  task 1208 look_away_55   label 1 recover 0.135 (ident 0.19 invert 0.71) recovered 0
+  task 1255 look_away_35   label 1 recover 0.204 (ident 1.00 invert 0.20) recovered 0
+  task 1255 look_away_55   label 1 recover 0.197 (ident 0.39 invert 0.50) recovered 0
+  task 1297 look_away_35   label 1 recover 0.215 (ident 1.00 invert 0.22) recovered 0
+  task 1297 look_away_55   label 1 recover 0.181 (ident 0.34 invert 0.54) recovered 0
+  task 1371 look_away_35   label 1 recover 0.194 (ident 0.91 invert 0.21) recovered 0
+  task 1371 look_away_55   label 1 recover 0.023 (ident 0.33 invert 0.07) recovered 1
+  task 1412 look_away_35   label 1 recover 0.229 (ident 1.00 invert 0.23) recovered 0
+  task 1412 look_away_55   label 1 recover 0.211 (ident 0.31 invert 0.69) recovered 0
+  task 1412 colored_room   label 0 recover 0.000 (ident 1.00 invert 0.00) recovered 0
+  task 1442 look_away_35   label 1 recover 0.225 (ident 1.00 invert 0.23) recovered 0
+  task 1442 look_away_55   label 1 recover 0.188 (ident 0.27 invert 0.71) recovered 0
+
+predicted recoverable (recover > 0.5) but NOT recovered: 9 -> ['offset0.20', 'orbit_az30', 'orbit_az45', 'pullback_1.3', 'sigma20', 'sigma40']
+predicted NOT recoverable (recover <= 0.5) but recovered: 7 -> ['dir_az180', 'dir_az90', 'grazing', 'look_away_35', 'look_away_55', 'orbit_az30']
+
+===== pooled over policies =====
+  AUROC recover  0.823  [0.71, 0.92]  (n 65)
+  AUROC ident    0.619  [0.48, 0.74]  (n 65)
+  AUROC score    0.397  [0.26, 0.55]  (n 65)
+  AUROC label    0.518  [0.50, 0.56]  (n 65)
+  AUROC probe    0.407  [0.27, 0.55]  (n 65)

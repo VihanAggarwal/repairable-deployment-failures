@@ -1,0 +1,345 @@
+{
+ "policies": {
+  "pi05": {
+   "n_units": 21,
+   "recovered": 14,
+   "label": {
+    "auroc": 0.4642857142857143,
+    "ci": [
+     0.38461538461538464,
+     0.5
+    ]
+   },
+   "probe": {
+    "auroc": 0.6224489795918368,
+    "ci": [
+     0.37488636363636363,
+     0.8557692307692307
+    ]
+   },
+   "within_type": {
+    "camera": {
+     "rho": NaN,
+     "auroc": NaN,
+     "units": 0,
+     "recovered": 0
+    },
+    "light": {
+     "rho": NaN,
+     "auroc": NaN,
+     "units": 0,
+     "recovered": 0
+    },
+    "noise": {
+     "rho": NaN,
+     "auroc": NaN,
+     "units": 0,
+     "recovered": 0
+    },
+    "joint": {
+     "rho": NaN,
+     "auroc": NaN,
+     "units": 0,
+     "recovered": 0
+    },
+    "background": {
+     "rho": NaN,
+     "auroc": NaN,
+     "units": 0,
+     "recovered": 0
+    }
+   },
+   "units": [
+    {
+     "task": 1167,
+     "cond": "pullback_1.3",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.1786584019680051
+    },
+    {
+     "task": 1167,
+     "cond": "look_away_35",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.33077162674066185
+    },
+    {
+     "task": 1167,
+     "cond": "look_away_55",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.2682053748176648
+    },
+    {
+     "task": 1208,
+     "cond": "orbit_az20",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.028454336500388363
+    },
+    {
+     "task": 1208,
+     "cond": "orbit_az30",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.03741796802526095
+    },
+    {
+     "task": 1208,
+     "cond": "orbit_az45",
+     "family": "camera",
+     "override": false,
+     "recovered": 0,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.03617465675171952
+    },
+    {
+     "task": 1208,
+     "cond": "pullback_1.3",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.12918738772462532
+    },
+    {
+     "task": 1208,
+     "cond": "look_away_35",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.03271514354578528
+    },
+    {
+     "task": 1208,
+     "cond": "look_away_55",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.07979580047318352
+    },
+    {
+     "task": 1208,
+     "cond": "offset0.10",
+     "family": "joint",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.01512386139834719
+    },
+    {
+     "task": 1442,
+     "cond": "orbit_az30",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.09047822700861169
+    },
+    {
+     "task": 1442,
+     "cond": "orbit_az45",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.10725453138566354
+    },
+    {
+     "task": 1442,
+     "cond": "pullback_1.3",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.04933395343475809
+    },
+    {
+     "task": 1442,
+     "cond": "look_away_35",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.12082940398628339
+    },
+    {
+     "task": 1442,
+     "cond": "look_away_55",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.2215216524855429
+    },
+    {
+     "task": 1442,
+     "cond": "dir_az90",
+     "family": "light",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.005580297204813614
+    },
+    {
+     "task": 1442,
+     "cond": "dir_az180",
+     "family": "light",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.00493965682855143
+    },
+    {
+     "task": 1442,
+     "cond": "offset0.10",
+     "family": "joint",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.2388974401022402
+    },
+    {
+     "task": 1442,
+     "cond": "offset0.20",
+     "family": "joint",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.36474701356142025
+    },
+    {
+     "task": 1442,
+     "cond": "offset0.35",
+     "family": "joint",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 1,
+     "probe": -0.35131615371889663
+    },
+    {
+     "task": 1442,
+     "cond": "table_red",
+     "family": "background",
+     "override": false,
+     "recovered": 1,
+     "score": NaN,
+     "recover": NaN,
+     "ident": NaN,
+     "invert": NaN,
+     "label": 0,
+     "probe": -0.01218912343166913
+    }
+   ]
+  }
+ },
+ "pooled_label": {
+  "auroc": 0.4642857142857143,
+  "ci": [
+   0.38461538461538464,
+   0.5
+  ],
+  "n": 21
+ },
+ "pooled_probe": {
+  "auroc": 0.6224489795918368,
+  "ci": [
+   0.37488636363636363,
+   0.8557692307692307
+  ],
+  "n": 21
+ }
+}

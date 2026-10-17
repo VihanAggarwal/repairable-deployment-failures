@@ -1,0 +1,390 @@
+{
+ "policies": {
+  "openvla_oft": {
+   "n_units": 21,
+   "recovered": 13,
+   "recover": {
+    "auroc": 0.9134615384615384,
+    "ci": [
+     0.7272727272727273,
+     1.0
+    ]
+   },
+   "ident": {
+    "auroc": 0.7355769230769231,
+    "ci": [
+     0.48146367521367517,
+     0.9591836734693877
+    ]
+   },
+   "score": {
+    "auroc": 0.4807692307692308,
+    "ci": [
+     0.1836734693877551,
+     0.7857142857142857
+    ]
+   },
+   "label": {
+    "auroc": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ]
+   },
+   "probe": {
+    "auroc": 0.47115384615384615,
+    "ci": [
+     0.20901069518716578,
+     0.7501136363636357
+    ]
+   },
+   "within_type": {
+    "camera": {
+     "rho": 0.03506493506493507,
+     "auroc": 0.8775510204081632,
+     "units": 14,
+     "recovered": 7
+    },
+    "light": {
+     "rho": 0.034055727554179564,
+     "auroc": NaN,
+     "units": 1,
+     "recovered": 1
+    },
+    "noise": {
+     "rho": -0.006993006993006993,
+     "auroc": 1.0,
+     "units": 3,
+     "recovered": 2
+    },
+    "joint": {
+     "rho": 0.03333333333333333,
+     "auroc": NaN,
+     "units": 3,
+     "recovered": 3
+    },
+    "background": {
+     "rho": NaN,
+     "auroc": NaN,
+     "units": 0,
+     "recovered": 0
+    }
+   },
+   "units": [
+    {
+     "task": 1167,
+     "cond": "orbit_az45",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": 1.0981723986445238,
+     "recover": 0.6915130615234375,
+     "ident": 1.0,
+     "invert": 0.6915130615234375,
+     "label": 1,
+     "probe": -0.06615582325446624
+    },
+    {
+     "task": 1167,
+     "cond": "look_away_35",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": 1.1338315934726315,
+     "recover": 0.4855499267578125,
+     "ident": 1.0,
+     "invert": 0.4855499267578125,
+     "label": 1,
+     "probe": -0.21803263925886543
+    },
+    {
+     "task": 1167,
+     "cond": "look_away_55",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": 0.29386695364103416,
+     "recover": 0.20377782757899165,
+     "ident": 0.29386695364103416,
+     "invert": 0.6934356689453125,
+     "label": 1,
+     "probe": -0.15586324654085343
+    },
+    {
+     "task": 1208,
+     "cond": "orbit_az20",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": 1.1627127170568576,
+     "recover": 0.7289276123046875,
+     "ident": 1.0,
+     "invert": 0.7289276123046875,
+     "label": 1,
+     "probe": -0.165681958484903
+    },
+    {
+     "task": 1208,
+     "cond": "pullback_1.3",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": 1.0258507961022263,
+     "recover": 0.979644775390625,
+     "ident": 1.0,
+     "invert": 0.979644775390625,
+     "label": 1,
+     "probe": -0.1182861161188429
+    },
+    {
+     "task": 1208,
+     "cond": "look_away_35",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": 1.156240010578727,
+     "recover": 0.218048095703125,
+     "ident": 1.0,
+     "invert": 0.218048095703125,
+     "label": 1,
+     "probe": -0.027740741361685688
+    },
+    {
+     "task": 1208,
+     "cond": "look_away_55",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": 0.18994667112768268,
+     "recover": 0.1352807750684294,
+     "ident": 0.18994667112768268,
+     "invert": 0.7122039794921875,
+     "label": 1,
+     "probe": -0.036815735525601204
+    },
+    {
+     "task": 1442,
+     "cond": "orbit_az10",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": 1.0501798695443056,
+     "recover": 0.8686981201171875,
+     "ident": 1.0,
+     "invert": 0.8686981201171875,
+     "label": 1,
+     "probe": -0.029913826774469708
+    },
+    {
+     "task": 1442,
+     "cond": "orbit_az20",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": 1.0943583613640804,
+     "recover": 0.735107421875,
+     "ident": 1.0,
+     "invert": 0.735107421875,
+     "label": 1,
+     "probe": -0.042568034671669364
+    },
+    {
+     "task": 1442,
+     "cond": "orbit_az30",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": 1.0817466467280408,
+     "recover": 0.62945556640625,
+     "ident": 1.0,
+     "invert": 0.62945556640625,
+     "label": 1,
+     "probe": -0.05055448347277446
+    },
+    {
+     "task": 1442,
+     "cond": "orbit_az45",
+     "family": "camera",
+     "override": false,
+     "recovered": 1,
+     "score": 1.1318735893795029,
+     "recover": 0.6006317138671875,
+     "ident": 1.0,
+     "invert": 0.6006317138671875,
+     "label": 1,
+     "probe": -0.07016835196791019
+    },
+    {
+     "task": 1442,
+     "cond": "pullback_1.3",
+     "family": "camera",
+     "override": false,
+     "recovered": 0,
+     "score": 0.9589222496464747,
+     "recover": 0.9428855860476506,
+     "ident": 0.9589222496464747,
+     "invert": 0.9832763671875,
+     "label": 1,
+     "probe": -0.010218946639257424
+    },
+    {
+     "task": 1442,
+     "cond": "look_away_35",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": 1.202485084313635,
+     "recover": 0.2252044677734375,
+     "ident": 1.0,
+     "invert": 0.2252044677734375,
+     "label": 1,
+     "probe": -0.28963688734026116
+    },
+    {
+     "task": 1442,
+     "cond": "look_away_55",
+     "family": "camera",
+     "override": true,
+     "recovered": 0,
+     "score": 0.26636291426669867,
+     "recover": 0.18842038486465276,
+     "ident": 0.26636291426669867,
+     "invert": 0.7073822021484375,
+     "label": 1,
+     "probe": -0.2893006716194627
+    },
+    {
+     "task": 1442,
+     "cond": "dir_az180",
+     "family": "light",
+     "override": false,
+     "recovered": 1,
+     "score": 0.001405702049922922,
+     "recover": 0.32601518405736035,
+     "ident": 0.3719695822941125,
+     "invert": 0.8764565695040718,
+     "label": 1,
+     "probe": -0.005031528884577373
+    },
+    {
+     "task": 1442,
+     "cond": "sigma5",
+     "family": "noise",
+     "override": false,
+     "recovered": 1,
+     "score": 0.04257455985206367,
+     "recover": 1.0,
+     "ident": 1.0,
+     "invert": 1.0,
+     "label": 1,
+     "probe": -0.015173936663017288
+    },
+    {
+     "task": 1442,
+     "cond": "sigma10",
+     "family": "noise",
+     "override": false,
+     "recovered": 1,
+     "score": 0.04257455985206366,
+     "recover": 0.7499999999999999,
+     "ident": 0.9999999999999999,
+     "invert": 0.75,
+     "label": 1,
+     "probe": -0.04252325638960755
+    },
+    {
+     "task": 1442,
+     "cond": "sigma40",
+     "family": "noise",
+     "override": false,
+     "recovered": 0,
+     "score": 0.0,
+     "recover": 0.0,
+     "ident": 0.0,
+     "invert": 0.7857142857142857,
+     "label": 1,
+     "probe": -0.024223594671373336
+    },
+    {
+     "task": 1442,
+     "cond": "offset0.10",
+     "family": "joint",
+     "override": false,
+     "recovered": 1,
+     "score": 0.28316059155811557,
+     "recover": 0.9567549793988033,
+     "ident": 0.9567549793988033,
+     "invert": 1.0,
+     "label": 1,
+     "probe": -0.278003662073197
+    },
+    {
+     "task": 1442,
+     "cond": "offset0.20",
+     "family": "joint",
+     "override": false,
+     "recovered": 1,
+     "score": 0.29964725167819156,
+     "recover": 1.0,
+     "ident": 1.0,
+     "invert": 1.0,
+     "label": 1,
+     "probe": -0.5585364362282533
+    },
+    {
+     "task": 1442,
+     "cond": "offset0.35",
+     "family": "joint",
+     "override": false,
+     "recovered": 1,
+     "score": 0.28550981484671595,
+     "recover": 0.9646926343765679,
+     "ident": 0.9646926343765679,
+     "invert": 1.0,
+     "label": 1,
+     "probe": -0.42459056641707876
+    }
+   ]
+  }
+ },
+ "pooled_recover": {
+  "auroc": 0.9134615384615384,
+  "ci": [
+   0.7272727272727273,
+   1.0
+  ],
+  "n": 21
+ },
+ "pooled_ident": {
+  "auroc": 0.7355769230769231,
+  "ci": [
+   0.48146367521367517,
+   0.9591836734693877
+  ],
+  "n": 21
+ },
+ "pooled_score": {
+  "auroc": 0.4807692307692308,
+  "ci": [
+   0.1836734693877551,
+   0.7857142857142857
+  ],
+  "n": 21
+ },
+ "pooled_label": {
+  "auroc": 0.5,
+  "ci": [
+   0.5,
+   0.5
+  ],
+  "n": 21
+ },
+ "pooled_probe": {
+  "auroc": 0.47115384615384615,
+  "ci": [
+   0.20901069518716578,
+   0.7501136363636357
+  ],
+  "n": 21
+ }
+}

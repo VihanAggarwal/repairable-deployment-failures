@@ -1,0 +1,1288 @@
+{
+ "suite": "libero_spatial",
+ "n_tasks": 2402,
+ "per_cat": 30,
+ "seed": 0,
+ "counts": {
+  "background": 258,
+  "camera": 376,
+  "language": 390,
+  "layout": 385,
+  "light": 292,
+  "robot_init": 350,
+  "sensor_noise": 351
+ },
+ "other_examples": [],
+ "name_tokens": {
+  "view": 1467,
+  "initstate": 1467,
+  "language": 390,
+  "noise": 351,
+  "light": 292,
+  "add": 208,
+  "table": 140,
+  "tb": 118
+ },
+ "tasks": [
+  {
+   "task_id": 1,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_table_10",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate table 10",
+   "category": "background"
+  },
+  {
+   "task_id": 39,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_table_21",
+   "language": "pick up the black bowl from table center and place it on the plate table 21",
+   "category": "background"
+  },
+  {
+   "task_id": 40,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_table_22",
+   "language": "pick up the black bowl from table center and place it on the plate table 22",
+   "category": "background"
+  },
+  {
+   "task_id": 41,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_table_23",
+   "language": "pick up the black bowl from table center and place it on the plate table 23",
+   "category": "background"
+  },
+  {
+   "task_id": 45,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_table_27",
+   "language": "pick up the black bowl from table center and place it on the plate table 27",
+   "category": "background"
+  },
+  {
+   "task_id": 49,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_table_6",
+   "language": "pick up the black bowl from table center and place it on the plate table 6",
+   "category": "background"
+  },
+  {
+   "task_id": 57,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_tb_14",
+   "language": "pick up the black bowl from table center and place it on the plate tb 14",
+   "category": "background"
+  },
+  {
+   "task_id": 58,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_tb_15",
+   "language": "pick up the black bowl from table center and place it on the plate tb 15",
+   "category": "background"
+  },
+  {
+   "task_id": 59,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_tb_16",
+   "language": "pick up the black bowl from table center and place it on the plate tb 16",
+   "category": "background"
+  },
+  {
+   "task_id": 63,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_tb_2",
+   "language": "pick up the black bowl from table center and place it on the plate tb 2",
+   "category": "background"
+  },
+  {
+   "task_id": 67,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_tb_23",
+   "language": "pick up the black bowl from table center and place it on the plate tb 23",
+   "category": "background"
+  },
+  {
+   "task_id": 78,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_table_19",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate table 19",
+   "category": "background"
+  },
+  {
+   "task_id": 82,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_table_24",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate table 24",
+   "category": "background"
+  },
+  {
+   "task_id": 112,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_tb_15",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate tb 15",
+   "category": "background"
+  },
+  {
+   "task_id": 117,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_tb_20",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate tb 20",
+   "category": "background"
+  },
+  {
+   "task_id": 128,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_table_10",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate table 10",
+   "category": "background"
+  },
+  {
+   "task_id": 166,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_tb_8",
+   "language": "pick up the black bowl on the cookie box and place it on the plate tb 8",
+   "category": "background"
+  },
+  {
+   "task_id": 168,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_table_1",
+   "language": "pick up the black bowl on the ramekin and place it on the plate table 1",
+   "category": "background"
+  },
+  {
+   "task_id": 174,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_table_17",
+   "language": "pick up the black bowl on the ramekin and place it on the plate table 17",
+   "category": "background"
+  },
+  {
+   "task_id": 194,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_tb_18",
+   "language": "pick up the black bowl on the ramekin and place it on the plate tb 18",
+   "category": "background"
+  },
+  {
+   "task_id": 208,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_table_15",
+   "language": "pick up the black bowl on the stove and place it on the plate table 15",
+   "category": "background"
+  },
+  {
+   "task_id": 218,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_table_26",
+   "language": "pick up the black bowl on the stove and place it on the plate table 26",
+   "category": "background"
+  },
+  {
+   "task_id": 219,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_table_3",
+   "language": "pick up the black bowl on the stove and place it on the plate table 3",
+   "category": "background"
+  },
+  {
+   "task_id": 226,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_tb_11",
+   "language": "pick up the black bowl on the stove and place it on the plate tb 11",
+   "category": "background"
+  },
+  {
+   "task_id": 230,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_tb_16",
+   "language": "pick up the black bowl on the stove and place it on the plate tb 16",
+   "category": "background"
+  },
+  {
+   "task_id": 231,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_tb_18",
+   "language": "pick up the black bowl on the stove and place it on the plate tb 18",
+   "category": "background"
+  },
+  {
+   "task_id": 236,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_tb_22",
+   "language": "pick up the black bowl on the stove and place it on the plate tb 22",
+   "category": "background"
+  },
+  {
+   "task_id": 237,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_tb_23",
+   "language": "pick up the black bowl on the stove and place it on the plate tb 23",
+   "category": "background"
+  },
+  {
+   "task_id": 250,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_table_28",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate table 28",
+   "category": "background"
+  },
+  {
+   "task_id": 251,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_table_3",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate table 3",
+   "category": "background"
+  },
+  {
+   "task_id": 261,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_121",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 121",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 262,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_131",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 131",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 274,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_301",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 301",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 284,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_431",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 431",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 290,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_42",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 42",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 299,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_202",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 202",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 305,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_262",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 262",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 313,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_342",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 342",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 321,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_422",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 422",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 347,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_313",
+   "language": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 313",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 356,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_413",
+   "language": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 413",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 396,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_175",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 175",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 398,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_195",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 195",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 404,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_255",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 255",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 409,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_305",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 305",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 440,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_296",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 296",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 447,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_366",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 366",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 449,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_396",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 396",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 484,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_487",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate view 0 0 100 0 0 initstate 487",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 492,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_128",
+   "language": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 128",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 507,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_288",
+   "language": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 288",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 512,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_338",
+   "language": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 338",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 516,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_378",
+   "language": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 378",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 525,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_468",
+   "language": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 468",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 533,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_119",
+   "language": "pick up the black bowl next to the plate and place it on the plate view 0 0 100 0 0 initstate 119",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 543,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_249",
+   "language": "pick up the black bowl next to the plate and place it on the plate view 0 0 100 0 0 initstate 249",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 544,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_259",
+   "language": "pick up the black bowl next to the plate and place it on the plate view 0 0 100 0 0 initstate 259",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 575,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_150",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 150",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 590,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_330",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 330",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 602,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_450",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 450",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 621,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_4_352_initstate_0",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 4 352 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 622,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_4_354_initstate_0",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 4 354 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 625,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_17_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 17 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 636,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_23_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 23 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 642,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_26_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 26 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 643,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_26_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 26 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 686,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_view_0_0_131_0_0_initstate_0",
+   "language": "pick up the black bowl on the cookie box and place it on the plate view 0 0 131 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 715,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_view_51_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the cookie box and place it on the plate view 51 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 720,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_view_53_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the cookie box and place it on the plate view 53 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 724,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_view_55_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the cookie box and place it on the plate view 55 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 738,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_144_0_0_initstate_0",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 144 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 745,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_10_2_initstate_0",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 10 2 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 749,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_10_10_initstate_0",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 10 10 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 755,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_61_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 61 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 793,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_350_4_initstate_0",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 350 4 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 808,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_289_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 289 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 809,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_289_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 289 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 816,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_293_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 293 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 850,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_view_304_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate view 304 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 859,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_view_309_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate view 309 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 867,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_view_313_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate view 313 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 889,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_317_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the stove and place it on the plate view 317 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 903,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_324_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the stove and place it on the plate view 324 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 908,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_326_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the stove and place it on the plate view 326 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 913,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_329_15_100_0_0_initstate_0",
+   "language": "pick up the black bowl on the stove and place it on the plate view 329 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 918,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_view_0_0_185_0_0_initstate_0",
+   "language": "pick up the black bowl next to the plate and place it on the plate view 0 0 185 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 924,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_view_0_0_100_356_6_initstate_0",
+   "language": "pick up the black bowl next to the plate and place it on the plate view 0 0 100 356 6 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 938,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_view_335_0_100_0_0_initstate_0",
+   "language": "pick up the black bowl next to the plate and place it on the plate view 335 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 957,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_358_6_initstate_0",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 358 6 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 958,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_358_8_initstate_0",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 358 8 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1009,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_language_28_view_0_0_100_0_0_initstate_0",
+   "language": "could you move the black bowl thats between the plate and the ramekin onto the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1017,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_language_38_view_0_0_100_0_0_initstate_0",
+   "language": "lets adjust the table arrangement pick up the black bowl located between the plate and ramekin and put it on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1035,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_language_7_view_0_0_100_0_0_initstate_0",
+   "language": "grasp the darkhued rounded food container situated adjacent to the small baking dish and set it down on the flat dish for serving meals",
+   "category": "language"
+  },
+  {
+   "task_id": 1045,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_language_25_view_0_0_100_0_0_initstate_0",
+   "language": "pick up the darkcolored dish located adjacent to the small baking dish and position it on the flat serving item",
+   "category": "language"
+  },
+  {
+   "task_id": 1066,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_language_8_view_0_0_100_0_0_initstate_0",
+   "language": "lift the black bowl from the middle of the table and set it on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1077,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_language_26_view_0_0_100_0_0_initstate_0",
+   "language": "pick up the dark rounded container from the middle of the eating surface and place it on the flat dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1093,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_language_4_view_0_0_100_0_0_initstate_0",
+   "language": "for safety reasons please pick up the black bowl thats on the cookie box and put it on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1115,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_language_32_view_0_0_100_0_0_initstate_0",
+   "language": "before we start cooking pick up that black bowl from the cookie box and set it down on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1121,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_language_39_view_0_0_100_0_0_initstate_0",
+   "language": "lift the dark bowl situated on the biscuit container and set it on the dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1124,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_language_42_view_0_0_100_0_0_initstate_0",
+   "language": "lift the dark bowl atop the biscuit tin and set it on the dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1129,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_language_47_view_0_0_100_0_0_initstate_0",
+   "language": "lift the dark bowl from the biscuit container and position it on the dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1144,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_language_18_view_0_0_100_0_0_initstate_0",
+   "language": "pick up the darkhued rounded container located in the upper storage area of the timber storage unit and place it on the flat dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1154,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_language_31_view_0_0_100_0_0_initstate_0",
+   "language": "can you put the black bowl from the top drawer of the wooden cabinet on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1186,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_language_28_view_0_0_100_0_0_initstate_0",
+   "language": "lift the darkcolored round vessel located atop the small glazed ceramic dish and set it down on the flat dish used for serving meals",
+   "category": "language"
+  },
+  {
+   "task_id": 1206,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_language_7_view_0_0_100_0_0_initstate_0",
+   "language": "pick up the darkcolored rounded container adjacent to the package containing baked sweets and place it on the flat dish designed for serving food",
+   "category": "language"
+  },
+  {
+   "task_id": 1208,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_language_10_view_0_0_100_0_0_initstate_0",
+   "language": "can you put the black bowl next to the cookie box onto the plate for me",
+   "category": "language"
+  },
+  {
+   "task_id": 1210,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_language_12_view_0_0_100_0_0_initstate_0",
+   "language": "would you mind picking up that black bowl near the cookie box and transferring it to the plate dinner is almost ready",
+   "category": "language"
+  },
+  {
+   "task_id": 1234,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_language_36_view_0_0_100_0_0_initstate_0",
+   "language": "could you place the black bowl next to the cookie box on the plate for me",
+   "category": "language"
+  },
+  {
+   "task_id": 1247,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_language_1_view_0_0_100_0_0_initstate_0",
+   "language": "grasp the darkcolored vessel situated on the cooking appliance and relocate it to rest upon the flat dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1282,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_language_1_view_0_0_100_0_0_initstate_0",
+   "language": "on this lovely afternoon could you pick up the black bowl next to the plate and carefully place it on top of the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1291,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_language_10_view_0_0_100_0_0_initstate_0",
+   "language": "lift the darkhued rounded container adjacent to the dish and set it upon the dish",
+   "category": "language"
+  },
+  {
+   "task_id": 1298,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_language_18_view_0_0_100_0_0_initstate_0",
+   "language": "could you put the black bowl thats beside the plate onto the plate itself",
+   "category": "language"
+  },
+  {
+   "task_id": 1299,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_language_19_view_0_0_100_0_0_initstate_0",
+   "language": "the cooking show host recommends bowls on plates for presentation lets do that with the black bowl nearby",
+   "category": "language"
+  },
+  {
+   "task_id": 1317,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_language_39_view_0_0_100_0_0_initstate_0",
+   "language": "lift the dark bowl adjacent to the plate and set it atop the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1326,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_language_50_view_0_0_100_0_0_initstate_0",
+   "language": "could you place the black bowl onto the plate next to it",
+   "category": "language"
+  },
+  {
+   "task_id": 1353,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_language_29_view_0_0_100_0_0_initstate_0",
+   "language": "can you move the black bowl from the cabinet to the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1360,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_language_36_view_0_0_100_0_0_initstate_0",
+   "language": "attention please pick up the black bowl located on the wooden cabinet and carefully place it on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1364,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_language_41_view_0_0_100_0_0_initstate_0",
+   "language": "lift the black dish from the wooden cupboard and set it on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1369,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_language_46_view_0_0_100_0_0_initstate_0",
+   "language": "before we start cooking please pick up the black bowl from the wooden cabinet and set it down on the plate",
+   "category": "language"
+  },
+  {
+   "task_id": 1373,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_language_50_view_0_0_100_0_0_initstate_0",
+   "language": "pick up the darkhued dish located on the surface made of tree material and place it on the dish meant for serving food",
+   "category": "language"
+  },
+  {
+   "task_id": 1387,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_17",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 17",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1397,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_40",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 40",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1399,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_44",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 44",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1409,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_5",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 5",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1417,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_15",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 15",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1418,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_17",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 17",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1434,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_45",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 45",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1444,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_7",
+   "language": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 0 noise 7",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1449,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_13",
+   "language": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 0 noise 13",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1451,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_15",
+   "language": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 0 noise 15",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1453,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_17",
+   "language": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 0 noise 17",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1454,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_18",
+   "language": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 0 noise 18",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1510,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_8",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 8",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1519,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_17",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 17",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1525,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_24",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 24",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1529,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_28",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 28",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1531,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_30",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 30",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1537,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_41",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 41",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1543,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_48",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 48",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1555,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_13",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 13",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1565,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_28",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 28",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1568,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_35",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 35",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1581,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_49",
+   "language": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 49",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1641,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_28",
+   "language": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 0 noise 28",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1645,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_37",
+   "language": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 0 noise 37",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1701,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_20",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 20",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1709,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_32",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 32",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1711,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_36",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 36",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1716,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_41",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 41",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1721,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_view_0_0_100_0_0_initstate_0_noise_47",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 47",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1741,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_add_27",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate add 27",
+   "category": "layout"
+  },
+  {
+   "task_id": 1753,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_level2_sample1",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate level2 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1754,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_level2_sample2",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate level2 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 1765,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_level5_sample1",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate level5 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1777,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_add_22",
+   "language": "pick up the black bowl from table center and place it on the plate add 22",
+   "category": "layout"
+  },
+  {
+   "task_id": 1797,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_level3_sample1",
+   "language": "pick up the black bowl from table center and place it on the plate level3 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1800,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_level3_sample4",
+   "language": "pick up the black bowl from table center and place it on the plate level3 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 1807,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_add_1",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate add 1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1814,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_add_17",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate add 17",
+   "category": "layout"
+  },
+  {
+   "task_id": 1825,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_add_28",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate add 28",
+   "category": "layout"
+  },
+  {
+   "task_id": 1865,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_add_27",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate add 27",
+   "category": "layout"
+  },
+  {
+   "task_id": 1895,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_level1_sample3",
+   "language": "pick up the black bowl next to the plate and place it on the plate level1 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 1897,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_level2_sample1",
+   "language": "pick up the black bowl next to the plate and place it on the plate level2 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1900,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_level3_sample1",
+   "language": "pick up the black bowl next to the plate and place it on the plate level3 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1903,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_level3_sample4",
+   "language": "pick up the black bowl next to the plate and place it on the plate level3 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 1909,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_level5_sample2",
+   "language": "pick up the black bowl next to the plate and place it on the plate level5 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 1915,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_add_15",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate add 15",
+   "category": "layout"
+  },
+  {
+   "task_id": 1931,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_level1_sample4",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate level1 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 1934,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_level2_sample3",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate level2 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 1940,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_level4_sample1",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate level4 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1954,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_add_17",
+   "language": "pick up the black bowl on the cookie box and place it on the plate add 17",
+   "category": "layout"
+  },
+  {
+   "task_id": 1980,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_level2_sample4",
+   "language": "pick up the black bowl on the cookie box and place it on the plate level2 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2009,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_add_3",
+   "language": "pick up the black bowl on the ramekin and place it on the plate add 3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2017,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_level1_sample2",
+   "language": "pick up the black bowl on the ramekin and place it on the plate level1 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 2023,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_level3_sample2",
+   "language": "pick up the black bowl on the ramekin and place it on the plate level3 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 2030,
+   "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_level5_sample2",
+   "language": "pick up the black bowl on the ramekin and place it on the plate level5 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 2063,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_level4_sample3",
+   "language": "pick up the black bowl on the stove and place it on the plate level4 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2074,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_add_19",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate add 19",
+   "category": "layout"
+  },
+  {
+   "task_id": 2096,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_level2_sample3",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate level2 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2105,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_level4_sample4",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate level4 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2124,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_light_24",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate light 24",
+   "category": "light"
+  },
+  {
+   "task_id": 2129,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_light_29",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate light 29",
+   "category": "light"
+  },
+  {
+   "task_id": 2136,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_light_36",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate light 36",
+   "category": "light"
+  },
+  {
+   "task_id": 2137,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_light_38",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate light 38",
+   "category": "light"
+  },
+  {
+   "task_id": 2148,
+   "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_light_50",
+   "language": "pick up the black bowl between the plate and the ramekin and place it on the plate light 50",
+   "category": "light"
+  },
+  {
+   "task_id": 2163,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_light_2",
+   "language": "pick up the black bowl from table center and place it on the plate light 2",
+   "category": "light"
+  },
+  {
+   "task_id": 2172,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_light_28",
+   "language": "pick up the black bowl from table center and place it on the plate light 28",
+   "category": "light"
+  },
+  {
+   "task_id": 2173,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_light_29",
+   "language": "pick up the black bowl from table center and place it on the plate light 29",
+   "category": "light"
+  },
+  {
+   "task_id": 2184,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_light_39",
+   "language": "pick up the black bowl from table center and place it on the plate light 39",
+   "category": "light"
+  },
+  {
+   "task_id": 2194,
+   "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_light_48",
+   "language": "pick up the black bowl from table center and place it on the plate light 48",
+   "category": "light"
+  },
+  {
+   "task_id": 2212,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_light_19",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate light 19",
+   "category": "light"
+  },
+  {
+   "task_id": 2218,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_light_24",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate light 24",
+   "category": "light"
+  },
+  {
+   "task_id": 2223,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_light_29",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate light 29",
+   "category": "light"
+  },
+  {
+   "task_id": 2225,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_light_31",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate light 31",
+   "category": "light"
+  },
+  {
+   "task_id": 2235,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_light_41",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate light 41",
+   "category": "light"
+  },
+  {
+   "task_id": 2245,
+   "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_light_9",
+   "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate light 9",
+   "category": "light"
+  },
+  {
+   "task_id": 2261,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_light_34",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate light 34",
+   "category": "light"
+  },
+  {
+   "task_id": 2264,
+   "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_light_37",
+   "language": "pick up the black bowl next to the cookie box and place it on the plate light 37",
+   "category": "light"
+  },
+  {
+   "task_id": 2277,
+   "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_light_11",
+   "language": "pick up the black bowl next to the plate and place it on the plate light 11",
+   "category": "light"
+  },
+  {
+   "task_id": 2283,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_light_21",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate light 21",
+   "category": "light"
+  },
+  {
+   "task_id": 2284,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_light_38",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate light 38",
+   "category": "light"
+  },
+  {
+   "task_id": 2286,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_light_40",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate light 40",
+   "category": "light"
+  },
+  {
+   "task_id": 2287,
+   "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_light_45",
+   "language": "pick up the black bowl next to the ramekin and place it on the plate light 45",
+   "category": "light"
+  },
+  {
+   "task_id": 2298,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_light_25",
+   "language": "pick up the black bowl on the cookie box and place it on the plate light 25",
+   "category": "light"
+  },
+  {
+   "task_id": 2299,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_light_26",
+   "language": "pick up the black bowl on the cookie box and place it on the plate light 26",
+   "category": "light"
+  },
+  {
+   "task_id": 2301,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_light_32",
+   "language": "pick up the black bowl on the cookie box and place it on the plate light 32",
+   "category": "light"
+  },
+  {
+   "task_id": 2302,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_light_37",
+   "language": "pick up the black bowl on the cookie box and place it on the plate light 37",
+   "category": "light"
+  },
+  {
+   "task_id": 2314,
+   "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_light_8",
+   "language": "pick up the black bowl on the cookie box and place it on the plate light 8",
+   "category": "light"
+  },
+  {
+   "task_id": 2374,
+   "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_light_44",
+   "language": "pick up the black bowl on the stove and place it on the plate light 44",
+   "category": "light"
+  },
+  {
+   "task_id": 2389,
+   "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_light_22",
+   "language": "pick up the black bowl on the wooden cabinet and place it on the plate light 22",
+   "category": "light"
+  }
+ ]
+}

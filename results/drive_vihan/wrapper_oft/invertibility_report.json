@@ -1,0 +1,176 @@
+{
+ "taxonomy": {
+  "robot_init": [
+   "invertible",
+   "proprioception: joint angles vs the training start"
+  ],
+  "camera": [
+   "invertible",
+   "self-calibration: robot silhouette + depth"
+  ],
+  "light": [
+   "partly invertible",
+   "photometric gain fitted on the robot's own pixels"
+  ],
+  "sensor_noise": [
+   "partly invertible",
+   "noise floor estimate + denoising"
+  ],
+  "layout": [
+   "non-invertible",
+   "new object configuration: a capability test"
+  ],
+  "background": [
+   "non-invertible",
+   "new scene appearance: a capability test"
+  ],
+  "language": [
+   "non-invertible",
+   "new instruction: a capability test"
+  ]
+ },
+ "families": [
+  {
+   "family": "openvla_oft",
+   "categories": {
+    "robot_init": {
+     "cls": "invertible",
+     "n": 30,
+     "base": 0.3333333333333333,
+     "full": 0.9,
+     "full_ci": [
+      0.7437855868473339,
+      0.9654007400402839
+     ],
+     "recovered": 18,
+     "base_fails": 20,
+     "harmed": 1,
+     "base_successes": 10,
+     "mcnemar_p": 7.62939453125e-05,
+     "upper_bounds": {}
+    },
+    "camera": {
+     "cls": "invertible",
+     "n": 30,
+     "base": 0.43333333333333335,
+     "full": 0.6666666666666666,
+     "full_ci": [
+      0.48779725813830266,
+      0.807697044731538
+     ],
+     "recovered": 8,
+     "base_fails": 17,
+     "harmed": 1,
+     "base_successes": 13,
+     "mcnemar_p": 0.0390625,
+     "upper_bounds": {
+      "oracle": 0.9,
+      "cam_true": 0.5
+     }
+    },
+    "light": {
+     "cls": "partly invertible",
+     "n": 30,
+     "base": 0.9666666666666667,
+     "full": 0.9666666666666667,
+     "full_ci": [
+      0.8332924860304112,
+      0.9940915620051425
+     ],
+     "recovered": 0,
+     "base_fails": 1,
+     "harmed": 0,
+     "base_successes": 29,
+     "mcnemar_p": 1.0,
+     "upper_bounds": {}
+    },
+    "sensor_noise": {
+     "cls": "partly invertible",
+     "n": 10,
+     "base": 0.9,
+     "full": 0.8,
+     "full_ci": [
+      0.49015684672072335,
+      0.9433190520193067
+     ],
+     "recovered": 0,
+     "base_fails": 1,
+     "harmed": 1,
+     "base_successes": 9,
+     "mcnemar_p": 1.0,
+     "upper_bounds": {}
+    },
+    "layout": {
+     "cls": "non-invertible",
+     "n": 10,
+     "base": 1.0,
+     "full": 1.0,
+     "full_ci": [
+      0.7224598312333834,
+      1.0
+     ],
+     "recovered": 0,
+     "base_fails": 0,
+     "harmed": 0,
+     "base_successes": 10,
+     "mcnemar_p": 1.0,
+     "upper_bounds": {}
+    },
+    "background": {
+     "cls": "non-invertible",
+     "n": 10,
+     "base": 0.9,
+     "full": 0.9,
+     "full_ci": [
+      0.5958436145024278,
+      0.9821242504842788
+     ],
+     "recovered": 1,
+     "base_fails": 1,
+     "harmed": 1,
+     "base_successes": 9,
+     "mcnemar_p": 1.0,
+     "upper_bounds": {}
+    },
+    "language": {
+     "cls": "non-invertible",
+     "n": 10,
+     "base": 0.9,
+     "full": 1.0,
+     "full_ci": [
+      0.7224598312333834,
+      1.0
+     ],
+     "recovered": 1,
+     "base_fails": 1,
+     "harmed": 0,
+     "base_successes": 9,
+     "mcnemar_p": 1.0,
+     "upper_bounds": {}
+    }
+   },
+   "classes": {
+    "invertible": {
+     "recovered": 26,
+     "base_fails": 37,
+     "harmed": 2,
+     "base_successes": 23
+    },
+    "partly invertible": {
+     "recovered": 0,
+     "base_fails": 2,
+     "harmed": 1,
+     "base_successes": 38
+    },
+    "non-invertible": {
+     "recovered": 2,
+     "base_fails": 2,
+     "harmed": 1,
+     "base_successes": 28
+    }
+   },
+   "invertible_gap_closed": 0.5121951219512195,
+   "non_invertible_success": 0.9666666666666667
+  }
+ ]
+}

@@ -1,0 +1,1288 @@
+{
+ "suite": "libero_object",
+ "n_tasks": 2518,
+ "per_cat": 30,
+ "seed": 0,
+ "counts": {
+  "background": 248,
+  "camera": 396,
+  "language": 354,
+  "layout": 403,
+  "light": 297,
+  "robot_init": 398,
+  "sensor_noise": 422
+ },
+ "other_examples": [],
+ "name_tokens": {
+  "view": 1570,
+  "initstate": 1570,
+  "noise": 422,
+  "language": 354,
+  "light": 297,
+  "add": 208,
+  "table": 147,
+  "tb": 101
+ },
+ "tasks": [
+  {
+   "task_id": 1,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_10",
+   "language": "pick up the alphabet soup and place it in the basket table 10",
+   "category": "background"
+  },
+  {
+   "task_id": 40,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_18",
+   "language": "pick up the bbq sauce and place it in the basket table 18",
+   "category": "background"
+  },
+  {
+   "task_id": 43,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_20",
+   "language": "pick up the bbq sauce and place it in the basket table 20",
+   "category": "background"
+  },
+  {
+   "task_id": 49,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_26",
+   "language": "pick up the bbq sauce and place it in the basket table 26",
+   "category": "background"
+  },
+  {
+   "task_id": 51,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_28",
+   "language": "pick up the bbq sauce and place it in the basket table 28",
+   "category": "background"
+  },
+  {
+   "task_id": 53,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_4",
+   "language": "pick up the bbq sauce and place it in the basket table 4",
+   "category": "background"
+  },
+  {
+   "task_id": 57,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_9",
+   "language": "pick up the bbq sauce and place it in the basket table 9",
+   "category": "background"
+  },
+  {
+   "task_id": 59,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_10",
+   "language": "pick up the bbq sauce and place it in the basket tb 10",
+   "category": "background"
+  },
+  {
+   "task_id": 63,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_14",
+   "language": "pick up the bbq sauce and place it in the basket tb 14",
+   "category": "background"
+  },
+  {
+   "task_id": 69,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_2",
+   "language": "pick up the bbq sauce and place it in the basket tb 2",
+   "category": "background"
+  },
+  {
+   "task_id": 88,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_table_26",
+   "language": "pick up the butter and place it in the basket table 26",
+   "category": "background"
+  },
+  {
+   "task_id": 96,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_table_9",
+   "language": "pick up the butter and place it in the basket table 9",
+   "category": "background"
+  },
+  {
+   "task_id": 110,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_table_24",
+   "language": "pick up the chocolate pudding and place it in the basket table 24",
+   "category": "background"
+  },
+  {
+   "task_id": 112,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_table_3",
+   "language": "pick up the chocolate pudding and place it in the basket table 3",
+   "category": "background"
+  },
+  {
+   "task_id": 116,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_tb_1",
+   "language": "pick up the chocolate pudding and place it in the basket tb 1",
+   "category": "background"
+  },
+  {
+   "task_id": 127,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_table_1",
+   "language": "pick up the ketchup and place it in the basket table 1",
+   "category": "background"
+  },
+  {
+   "task_id": 132,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_table_4",
+   "language": "pick up the ketchup and place it in the basket table 4",
+   "category": "background"
+  },
+  {
+   "task_id": 135,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_tb_21",
+   "language": "pick up the ketchup and place it in the basket tb 21",
+   "category": "background"
+  },
+  {
+   "task_id": 142,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_table_21",
+   "language": "pick up the milk and place it in the basket table 21",
+   "category": "background"
+  },
+  {
+   "task_id": 164,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_tb_21",
+   "language": "pick up the milk and place it in the basket tb 21",
+   "category": "background"
+  },
+  {
+   "task_id": 167,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_tb_6",
+   "language": "pick up the milk and place it in the basket tb 6",
+   "category": "background"
+  },
+  {
+   "task_id": 168,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_tb_8",
+   "language": "pick up the milk and place it in the basket tb 8",
+   "category": "background"
+  },
+  {
+   "task_id": 177,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_table_18",
+   "language": "pick up the orange juice and place it in the basket table 18",
+   "category": "background"
+  },
+  {
+   "task_id": 190,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_table_9",
+   "language": "pick up the orange juice and place it in the basket table 9",
+   "category": "background"
+  },
+  {
+   "task_id": 214,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_table_22",
+   "language": "pick up the salad dressing and place it in the basket table 22",
+   "category": "background"
+  },
+  {
+   "task_id": 215,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_table_23",
+   "language": "pick up the salad dressing and place it in the basket table 23",
+   "category": "background"
+  },
+  {
+   "task_id": 222,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_tb_12",
+   "language": "pick up the salad dressing and place it in the basket tb 12",
+   "category": "background"
+  },
+  {
+   "task_id": 225,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_tb_16",
+   "language": "pick up the salad dressing and place it in the basket tb 16",
+   "category": "background"
+  },
+  {
+   "task_id": 226,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_tb_18",
+   "language": "pick up the salad dressing and place it in the basket tb 18",
+   "category": "background"
+  },
+  {
+   "task_id": 230,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_tb_4",
+   "language": "pick up the salad dressing and place it in the basket tb 4",
+   "category": "background"
+  },
+  {
+   "task_id": 251,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_81",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 81",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 264,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_241",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 241",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 279,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_391",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 391",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 284,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_441",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 441",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 289,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_491",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 491",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 328,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_492",
+   "language": "pick up the cream cheese and place it in the basket view 0 0 100 0 0 initstate 492",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 346,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_243",
+   "language": "pick up the salad dressing and place it in the basket view 0 0 100 0 0 initstate 243",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 367,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_483",
+   "language": "pick up the salad dressing and place it in the basket view 0 0 100 0 0 initstate 483",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 381,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_234",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 234",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 383,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_264",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 264",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 386,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_294",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 294",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 401,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_444",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 444",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 415,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_185",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 185",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 416,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_205",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 205",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 420,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_255",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 255",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 432,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_375",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 375",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 446,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_16",
+   "language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 16",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 477,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_436",
+   "language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 436",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 480,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_466",
+   "language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 466",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 495,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_197",
+   "language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 197",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 497,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_217",
+   "language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 217",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 510,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_357",
+   "language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 357",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 511,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_367",
+   "language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 367",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 520,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_457",
+   "language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 457",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 535,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_198",
+   "language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 198",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 549,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_348",
+   "language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 348",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 575,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_269",
+   "language": "pick up the chocolate pudding and place it in the basket view 0 0 100 0 0 initstate 269",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 605,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_90",
+   "language": "pick up the orange juice and place it in the basket view 0 0 100 0 0 initstate 90",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 609,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_130",
+   "language": "pick up the orange juice and place it in the basket view 0 0 100 0 0 initstate 130",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 637,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_410",
+   "language": "pick up the orange juice and place it in the basket view 0 0 100 0 0 initstate 410",
+   "category": "robot_init"
+  },
+  {
+   "task_id": 651,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_2_352_initstate_0",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 2 352 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 659,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_8_15_100_0_0_initstate_0",
+   "language": "pick up the alphabet soup and place it in the basket view 8 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 660,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_9_15_100_0_0_initstate_0",
+   "language": "pick up the alphabet soup and place it in the basket view 9 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 663,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_12_15_100_0_0_initstate_0",
+   "language": "pick up the alphabet soup and place it in the basket view 12 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 673,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_4_350_initstate_0",
+   "language": "pick up the cream cheese and place it in the basket view 0 0 100 4 350 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 674,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_4_352_initstate_0",
+   "language": "pick up the cream cheese and place it in the basket view 0 0 100 4 352 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 680,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_22_0_100_0_0_initstate_0",
+   "language": "pick up the cream cheese and place it in the basket view 22 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 689,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_view_0_0_123_0_0_initstate_0",
+   "language": "pick up the salad dressing and place it in the basket view 0 0 123 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 717,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_view_37_15_100_0_0_initstate_0",
+   "language": "pick up the salad dressing and place it in the basket view 37 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 735,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_133_0_0_initstate_0",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 133 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 753,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_46_15_100_0_0_initstate_0",
+   "language": "pick up the bbq sauce and place it in the basket view 46 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 757,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_48_15_100_0_0_initstate_0",
+   "language": "pick up the bbq sauce and place it in the basket view 48 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 765,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_53_0_100_0_0_initstate_0",
+   "language": "pick up the bbq sauce and place it in the basket view 53 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 769,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_55_0_100_0_0_initstate_0",
+   "language": "pick up the bbq sauce and place it in the basket view 55 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 783,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_143_0_0_initstate_0",
+   "language": "pick up the ketchup and place it in the basket view 0 0 143 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 793,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_10_6_initstate_0",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 10 6 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 801,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_61_0_100_0_0_initstate_0",
+   "language": "pick up the ketchup and place it in the basket view 61 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 826,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_75_0_100_0_0_initstate_0",
+   "language": "pick up the ketchup and place it in the basket view 75 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 842,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_10_initstate_0",
+   "language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 10 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 846,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_356_initstate_0",
+   "language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 356 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 855,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_288_15_100_0_0_initstate_0",
+   "language": "pick up the tomato sauce and place it in the basket view 288 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 864,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_293_0_100_0_0_initstate_0",
+   "language": "pick up the tomato sauce and place it in the basket view 293 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 867,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_294_15_100_0_0_initstate_0",
+   "language": "pick up the tomato sauce and place it in the basket view 294 15 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 886,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_169_0_0_initstate_0",
+   "language": "pick up the butter and place it in the basket view 0 0 169 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 905,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_304_0_100_0_0_initstate_0",
+   "language": "pick up the butter and place it in the basket view 304 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 907,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_305_0_100_0_0_initstate_0",
+   "language": "pick up the butter and place it in the basket view 305 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 928,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_172_0_0_initstate_0",
+   "language": "pick up the milk and place it in the basket view 0 0 172 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 938,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_354_4_initstate_0",
+   "language": "pick up the milk and place it in the basket view 0 0 100 354 4 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1022,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_view_0_0_197_0_0_initstate_0",
+   "language": "pick up the orange juice and place it in the basket view 0 0 197 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1036,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_view_347_0_100_0_0_initstate_0",
+   "language": "pick up the orange juice and place it in the basket view 347 0 100 0 0 initstate 0",
+   "category": "camera"
+  },
+  {
+   "task_id": 1046,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_language_12_view_0_0_100_0_0_initstate_0",
+   "language": "lift the alphabet soup and insert it into the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1062,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_language_46_view_0_0_100_0_0_initstate_0",
+   "language": "pick up the bowl of letterthemed broth and place it in the woven container",
+   "category": "language"
+  },
+  {
+   "task_id": 1067,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_language_3_view_0_0_100_0_0_initstate_0",
+   "language": "the cream cheese should be picked up and placed in the basket immediately",
+   "category": "language"
+  },
+  {
+   "task_id": 1075,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_language_16_view_0_0_100_0_0_initstate_0",
+   "language": "for our recipe well need to pick up the cream cheese and place it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1090,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_language_40_view_0_0_100_0_0_initstate_0",
+   "language": "grab the cream cheese and put it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1096,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+   "language": "lift the spread often used on bagels and move it to the woven container",
+   "category": "language"
+  },
+  {
+   "task_id": 1128,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_language_42_view_0_0_100_0_0_initstate_0",
+   "language": "id like the salad dressing in the basket please",
+   "category": "language"
+  },
+  {
+   "task_id": 1135,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_language_2_view_0_0_100_0_0_initstate_0",
+   "language": "dont forget the condiments pick up the bbq sauce and place it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1140,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+   "language": "lift the bbq sauce and set it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1142,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_language_18_view_0_0_100_0_0_initstate_0",
+   "language": "grasp the condiment typically used for grilling meats and position it in the container for carrying purchases",
+   "category": "language"
+  },
+  {
+   "task_id": 1151,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_language_35_view_0_0_100_0_0_initstate_0",
+   "language": "could you put the bbq sauce in the basket please",
+   "category": "language"
+  },
+  {
+   "task_id": 1159,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_language_49_view_0_0_100_0_0_initstate_0",
+   "language": "the bbq sauce is on the counter pick it up and place it in the basket would you",
+   "category": "language"
+  },
+  {
+   "task_id": 1167,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_language_11_view_0_0_100_0_0_initstate_0",
+   "language": "before you leave remember to pick up the ketchup and place it in the basket by the door",
+   "category": "language"
+  },
+  {
+   "task_id": 1170,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+   "language": "the cooking show starts soon first pick up the ketchup and place it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1179,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_language_25_view_0_0_100_0_0_initstate_0",
+   "language": "hey there would you mind picking up that ketchup and putting it in the basket thanks",
+   "category": "language"
+  },
+  {
+   "task_id": 1183,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_language_29_view_0_0_100_0_0_initstate_0",
+   "language": "lift the ketchup and position it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1252,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_language_32_view_0_0_100_0_0_initstate_0",
+   "language": "could you ensure the butter ends up in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1253,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_language_34_view_0_0_100_0_0_initstate_0",
+   "language": "for proper storage pick up the butter and place it in the designated basket on the shelf",
+   "category": "language"
+  },
+  {
+   "task_id": 1267,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+   "language": "were organizing the kitchen your job is to pick up the milk and place it in the designated basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1289,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_language_33_view_0_0_100_0_0_initstate_0",
+   "language": "put the milk in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1292,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_language_37_view_0_0_100_0_0_initstate_0",
+   "language": "our guests are arriving soon quickly pick up the milk and place it in the entertainment basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1299,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_language_46_view_0_0_100_0_0_initstate_0",
+   "language": "collect the milk and set it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1307,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_4_view_0_0_100_0_0_initstate_0",
+   "language": "grab the chocolate pudding and set it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1316,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_13_view_0_0_100_0_0_initstate_0",
+   "language": "to complete your task pick up the chocolate pudding and place it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1344,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_42_view_0_0_100_0_0_initstate_0",
+   "language": "lift the chocolate dessert and set it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1355,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_language_4_view_0_0_100_0_0_initstate_0",
+   "language": "grab the orange juice and put it in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1364,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+   "language": "our guests are arriving soon pick up the orange juice and place it in the basket quickly",
+   "category": "language"
+  },
+  {
+   "task_id": 1370,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_language_21_view_0_0_100_0_0_initstate_0",
+   "language": "could you ensure the orange juice ends up in the basket",
+   "category": "language"
+  },
+  {
+   "task_id": 1378,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_language_29_view_0_0_100_0_0_initstate_0",
+   "language": "grasp the citrus beverage container and deposit it in the woven carrier",
+   "category": "language"
+  },
+  {
+   "task_id": 1387,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_language_40_view_0_0_100_0_0_initstate_0",
+   "language": "lift the citrusderived breakfast beverage and position it within the woven carrying container",
+   "category": "language"
+  },
+  {
+   "task_id": 1419,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_28",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 0 noise 28",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1427,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_40",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 0 noise 40",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1434,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_47",
+   "language": "pick up the alphabet soup and place it in the basket view 0 0 100 0 0 initstate 0 noise 47",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1451,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_14",
+   "language": "pick up the cream cheese and place it in the basket view 0 0 100 0 0 initstate 0 noise 14",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1460,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_25",
+   "language": "pick up the cream cheese and place it in the basket view 0 0 100 0 0 initstate 0 noise 25",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1470,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_36",
+   "language": "pick up the cream cheese and place it in the basket view 0 0 100 0 0 initstate 0 noise 36",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1479,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_48",
+   "language": "pick up the cream cheese and place it in the basket view 0 0 100 0 0 initstate 0 noise 48",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1483,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_2",
+   "language": "pick up the salad dressing and place it in the basket view 0 0 100 0 0 initstate 0 noise 2",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1485,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_4",
+   "language": "pick up the salad dressing and place it in the basket view 0 0 100 0 0 initstate 0 noise 4",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1517,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_44",
+   "language": "pick up the salad dressing and place it in the basket view 0 0 100 0 0 initstate 0 noise 44",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1543,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_26",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 0 noise 26",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1544,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_27",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 0 noise 27",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1551,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_37",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 0 noise 37",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1555,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_41",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 0 noise 41",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1564,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_50",
+   "language": "pick up the bbq sauce and place it in the basket view 0 0 100 0 0 initstate 0 noise 50",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1566,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_2",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 0 noise 2",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1581,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_18",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 0 noise 18",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1585,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_24",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 0 noise 24",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1594,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_36",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 0 noise 36",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1607,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_50",
+   "language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 0 noise 50",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1623,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_18",
+   "language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 0 noise 18",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1658,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_7",
+   "language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 7",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1699,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_5",
+   "language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 5",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1702,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_8",
+   "language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 8",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1722,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_36",
+   "language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 36",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1730,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_46",
+   "language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 46",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1737,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_4",
+   "language": "pick up the chocolate pudding and place it in the basket view 0 0 100 0 0 initstate 0 noise 4",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1741,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_8",
+   "language": "pick up the chocolate pudding and place it in the basket view 0 0 100 0 0 initstate 0 noise 8",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1754,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_26",
+   "language": "pick up the chocolate pudding and place it in the basket view 0 0 100 0 0 initstate 0 noise 26",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1765,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_39",
+   "language": "pick up the chocolate pudding and place it in the basket view 0 0 100 0 0 initstate 0 noise 39",
+   "category": "sensor_noise"
+  },
+  {
+   "task_id": 1831,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_add_25",
+   "language": "pick up the alphabet soup and place it in the basket add 25",
+   "category": "layout"
+  },
+  {
+   "task_id": 1834,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_add_29",
+   "language": "pick up the alphabet soup and place it in the basket add 29",
+   "category": "layout"
+  },
+  {
+   "task_id": 1846,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_level2_sample4",
+   "language": "pick up the alphabet soup and place it in the basket level2 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 1847,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_level3_sample1",
+   "language": "pick up the alphabet soup and place it in the basket level3 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1904,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_add_12",
+   "language": "pick up the butter and place it in the basket add 12",
+   "category": "layout"
+  },
+  {
+   "task_id": 1913,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_add_21",
+   "language": "pick up the butter and place it in the basket add 21",
+   "category": "layout"
+  },
+  {
+   "task_id": 1924,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_add_7",
+   "language": "pick up the butter and place it in the basket add 7",
+   "category": "layout"
+  },
+  {
+   "task_id": 1942,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_level4_sample4",
+   "language": "pick up the butter and place it in the basket level4 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 1965,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_level1_sample1",
+   "language": "pick up the chocolate pudding and place it in the basket level1 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 1990,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_add_28",
+   "language": "pick up the cream cheese and place it in the basket add 28",
+   "category": "layout"
+  },
+  {
+   "task_id": 1999,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_level2_sample4",
+   "language": "pick up the cream cheese and place it in the basket level2 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2010,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_level5_sample3",
+   "language": "pick up the cream cheese and place it in the basket level5 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2011,
+   "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_level5_sample4",
+   "language": "pick up the cream cheese and place it in the basket level5 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2015,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_add_28",
+   "language": "pick up the ketchup and place it in the basket add 28",
+   "category": "layout"
+  },
+  {
+   "task_id": 2017,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_level1_sample1",
+   "language": "pick up the ketchup and place it in the basket level1 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 2047,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_add_21",
+   "language": "pick up the milk and place it in the basket add 21",
+   "category": "layout"
+  },
+  {
+   "task_id": 2065,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_level1_sample4",
+   "language": "pick up the milk and place it in the basket level1 sample4",
+   "category": "layout"
+  },
+  {
+   "task_id": 2067,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_level2_sample2",
+   "language": "pick up the milk and place it in the basket level2 sample2",
+   "category": "layout"
+  },
+  {
+   "task_id": 2080,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_level5_sample3",
+   "language": "pick up the milk and place it in the basket level5 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2087,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_14",
+   "language": "pick up the orange juice and place it in the basket add 14",
+   "category": "layout"
+  },
+  {
+   "task_id": 2091,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_18",
+   "language": "pick up the orange juice and place it in the basket add 18",
+   "category": "layout"
+  },
+  {
+   "task_id": 2121,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level3_sample3",
+   "language": "pick up the orange juice and place it in the basket level3 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2125,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level4_sample3",
+   "language": "pick up the orange juice and place it in the basket level4 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2140,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_add_20",
+   "language": "pick up the salad dressing and place it in the basket add 20",
+   "category": "layout"
+  },
+  {
+   "task_id": 2141,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_add_21",
+   "language": "pick up the salad dressing and place it in the basket add 21",
+   "category": "layout"
+  },
+  {
+   "task_id": 2145,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_add_26",
+   "language": "pick up the salad dressing and place it in the basket add 26",
+   "category": "layout"
+  },
+  {
+   "task_id": 2158,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_level1_sample3",
+   "language": "pick up the salad dressing and place it in the basket level1 sample3",
+   "category": "layout"
+  },
+  {
+   "task_id": 2169,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_level5_sample1",
+   "language": "pick up the salad dressing and place it in the basket level5 sample1",
+   "category": "layout"
+  },
+  {
+   "task_id": 2181,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_add_17",
+   "language": "pick up the tomato sauce and place it in the basket add 17",
+   "category": "layout"
+  },
+  {
+   "task_id": 2200,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_add_7",
+   "language": "pick up the tomato sauce and place it in the basket add 7",
+   "category": "layout"
+  },
+  {
+   "task_id": 2225,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_light_13",
+   "language": "pick up the alphabet soup and place it in the basket light 13",
+   "category": "light"
+  },
+  {
+   "task_id": 2240,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_light_29",
+   "language": "pick up the alphabet soup and place it in the basket light 29",
+   "category": "light"
+  },
+  {
+   "task_id": 2247,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_light_38",
+   "language": "pick up the alphabet soup and place it in the basket light 38",
+   "category": "light"
+  },
+  {
+   "task_id": 2248,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_light_4",
+   "language": "pick up the alphabet soup and place it in the basket light 4",
+   "category": "light"
+  },
+  {
+   "task_id": 2259,
+   "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_light_7",
+   "language": "pick up the alphabet soup and place it in the basket light 7",
+   "category": "light"
+  },
+  {
+   "task_id": 2274,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_light_20",
+   "language": "pick up the bbq sauce and place it in the basket light 20",
+   "category": "light"
+  },
+  {
+   "task_id": 2276,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_light_22",
+   "language": "pick up the bbq sauce and place it in the basket light 22",
+   "category": "light"
+  },
+  {
+   "task_id": 2289,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_light_34",
+   "language": "pick up the bbq sauce and place it in the basket light 34",
+   "category": "light"
+  },
+  {
+   "task_id": 2295,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_light_4",
+   "language": "pick up the bbq sauce and place it in the basket light 4",
+   "category": "light"
+  },
+  {
+   "task_id": 2296,
+   "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_light_40",
+   "language": "pick up the bbq sauce and place it in the basket light 40",
+   "category": "light"
+  },
+  {
+   "task_id": 2333,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_light_31",
+   "language": "pick up the butter and place it in the basket light 31",
+   "category": "light"
+  },
+  {
+   "task_id": 2334,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_light_32",
+   "language": "pick up the butter and place it in the basket light 32",
+   "category": "light"
+  },
+  {
+   "task_id": 2336,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_light_34",
+   "language": "pick up the butter and place it in the basket light 34",
+   "category": "light"
+  },
+  {
+   "task_id": 2343,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_light_40",
+   "language": "pick up the butter and place it in the basket light 40",
+   "category": "light"
+  },
+  {
+   "task_id": 2350,
+   "name": "pick_up_the_butter_and_place_it_in_the_basket_light_49",
+   "language": "pick up the butter and place it in the basket light 49",
+   "category": "light"
+  },
+  {
+   "task_id": 2357,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_light_11",
+   "language": "pick up the chocolate pudding and place it in the basket light 11",
+   "category": "light"
+  },
+  {
+   "task_id": 2358,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_light_13",
+   "language": "pick up the chocolate pudding and place it in the basket light 13",
+   "category": "light"
+  },
+  {
+   "task_id": 2372,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_light_35",
+   "language": "pick up the chocolate pudding and place it in the basket light 35",
+   "category": "light"
+  },
+  {
+   "task_id": 2374,
+   "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_light_37",
+   "language": "pick up the chocolate pudding and place it in the basket light 37",
+   "category": "light"
+  },
+  {
+   "task_id": 2397,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_light_39",
+   "language": "pick up the ketchup and place it in the basket light 39",
+   "category": "light"
+  },
+  {
+   "task_id": 2400,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_light_45",
+   "language": "pick up the ketchup and place it in the basket light 45",
+   "category": "light"
+  },
+  {
+   "task_id": 2403,
+   "name": "pick_up_the_ketchup_and_place_it_in_the_basket_light_8",
+   "language": "pick up the ketchup and place it in the basket light 8",
+   "category": "light"
+  },
+  {
+   "task_id": 2408,
+   "name": "pick_up_the_milk_and_place_it_in_the_basket_light_18",
+   "language": "pick up the milk and place it in the basket light 18",
+   "category": "light"
+  },
+  {
+   "task_id": 2434,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_light_15",
+   "language": "pick up the orange juice and place it in the basket light 15",
+   "category": "light"
+  },
+  {
+   "task_id": 2453,
+   "name": "pick_up_the_orange_juice_and_place_it_in_the_basket_light_39",
+   "language": "pick up the orange juice and place it in the basket light 39",
+   "category": "light"
+  },
+  {
+   "task_id": 2470,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_light_18",
+   "language": "pick up the salad dressing and place it in the basket light 18",
+   "category": "light"
+  },
+  {
+   "task_id": 2483,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_light_37",
+   "language": "pick up the salad dressing and place it in the basket light 37",
+   "category": "light"
+  },
+  {
+   "task_id": 2486,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_light_4",
+   "language": "pick up the salad dressing and place it in the basket light 4",
+   "category": "light"
+  },
+  {
+   "task_id": 2487,
+   "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket_light_40",
+   "language": "pick up the salad dressing and place it in the basket light 40",
+   "category": "light"
+  },
+  {
+   "task_id": 2502,
+   "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_light_2",
+   "language": "pick up the tomato sauce and place it in the basket light 2",
+   "category": "light"
+  }
+ ]
+}
